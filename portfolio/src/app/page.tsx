@@ -6,6 +6,7 @@ export default function Home() {
     <main className="fullpage">
       <Accueil />
       <Presentation />
+      <h1>Projets</h1>
     </main>
   );
 }

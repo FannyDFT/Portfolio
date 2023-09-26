@@ -29,11 +29,11 @@ function Accueil() {
             innovantes pour l'avenir.
           </p>
           <Link
-            href="/about"
+            href="/projects"
             type="button"
             className="container__background__text__button"
           >
-            On y va{" "}
+            On y va ?
           </Link>
         </div>
         {/* <svg
