@@ -9,15 +9,19 @@ import close from "../../../public/assets/images/icones/close_menu.png";
 import Link from "next/link";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState<boolean>(true);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const showNavbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeNavbar = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="header">
-      <Link href="/">
+      <Link href="/" onClick={closeNavbar}>
         <Image src={logo} width={95} height={90} alt="logo" />
       </Link>
       <nav
@@ -25,10 +29,18 @@ function Navbar() {
           isOpen ? "header__links__navbar_active" : "header__links__navbar"
         }`}
       >
-        <Link href="/">Accueil</Link>
-        <Link href="/about">à Propos</Link>
-        <Link href="/projects">Projets</Link>
-        <Link href="/">Contact</Link>
+        <Link href="/" onClick={closeNavbar}>
+          Accueil
+        </Link>
+        <Link href="/about" onClick={closeNavbar}>
+          à Propos
+        </Link>
+        <Link href="/projects" onClick={closeNavbar}>
+          Projets
+        </Link>
+        <Link href="/" onClick={closeNavbar}>
+          Contact
+        </Link>
       </nav>
       <button type="button" className="header__buttons" onClick={showNavbar}>
         {isOpen ? (
