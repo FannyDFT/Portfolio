@@ -19,6 +19,14 @@ function Navbar() {
     setIsOpen(false);
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+      closeNavbar(); // Fermez la barre de navigation après le clic
+    }
+  };
+
   return (
     <div className="navbar">
       <Link href="/" onClick={closeNavbar}>
@@ -38,9 +46,13 @@ function Navbar() {
         <Link href="/projects" onClick={closeNavbar}>
           Projets
         </Link>
-        <Link href="/" onClick={closeNavbar}>
+        <button
+          className="navbar__links__btn"
+          type="button"
+          onClick={scrollToContact}
+        >
           Contact
-        </Link>
+        </button>
       </nav>
       <button type="button" className="navbar__buttons" onClick={showNavbar}>
         {isOpen ? (

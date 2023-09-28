@@ -32,15 +32,10 @@
         color: variables.$gray;
         opacity: 0.9;
       }
+    }
 
-      &:last-child {
-        @include variables.button;
-
-        &:hover {
-          background-color: variables.$gray;
-          opacity: 0.9;
-        }
-      }
+    &__btn {
+      @include variables.button;
     }
 
     @media screen and (max-width: 750px) {

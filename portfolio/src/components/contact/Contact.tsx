@@ -65,7 +65,7 @@ function Contact() {
   };
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact__text">
         <h1>Contactez moi !</h1>
         <p>
