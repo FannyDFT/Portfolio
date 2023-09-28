@@ -7,15 +7,15 @@ import Link from "next/link";
 
 function Accueil() {
   return (
-    <div className="container">
-      <div className="container__img">
+    <div className="container-home">
+      <div className="container-home__img">
         <Image src={fond} width={400} height={400} alt="fond" />
-        <div className="container__photo">
+        <div className="container-home__photo">
           <Image src={photo} width={304} height={477} alt="fond" />
         </div>
       </div>
-      <div className="container__background">
-        <div className="container__background__text">
+      <div className="container-home__background">
+        <div className="container-home__background__text">
           <h1>Le Monde à Travers Ma Plume de Codeuse</h1>
           <h2>Transformant des idées en réalité numérique</h2>
           <p>
@@ -31,7 +31,7 @@ function Accueil() {
           <Link
             href="/projects"
             type="button"
-            className="container__background__text__button"
+            className="container-home__background__text__button"
           >
             On y va ?
           </Link>
@@ -42,7 +42,7 @@ function Accueil() {
           viewBox="0 0 204 89"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="container__background__line"
+          className="container-home__background__line"
         >
           <path
             d="M0.204383 87.6869C133.5 87.6878 125 13.5004 211.304 0.582896"
