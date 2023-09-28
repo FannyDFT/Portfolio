@@ -2,6 +2,7 @@ import Accueil from "@/components/Accueil/Accueil";
 import Presentation from "@/components/Presentation/Presentation";
 import MyProjects from "@/components/projects/MyProjects";
 import "./_page.scss";
+import Contact from "@/components/contact/Contact";
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <Accueil />
       <Presentation />
       <MyProjects />
-      <h1>Contact</h1>
+      <Contact />
+      <h1>Footer</h1>
     </main>
   );
 }
