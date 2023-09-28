@@ -20,13 +20,13 @@ function Navbar() {
   };
 
   return (
-    <div className="header">
+    <div className="navbar">
       <Link href="/" onClick={closeNavbar}>
         <Image src={logo} width={95} height={90} alt="logo" />
       </Link>
       <nav
-        className={`header__links ${
-          isOpen ? "header__links__navbar_active" : "header__links__navbar"
+        className={`navbar__links ${
+          isOpen ? "navbar__links__navbar_active" : "navbar__links__navbar"
         }`}
       >
         <Link href="/" onClick={closeNavbar}>
@@ -42,7 +42,7 @@ function Navbar() {
           Contact
         </Link>
       </nav>
-      <button type="button" className="header__buttons" onClick={showNavbar}>
+      <button type="button" className="navbar__buttons" onClick={showNavbar}>
         {isOpen ? (
           <Image src={close} width={53} height={53} alt="close_menu" />
         ) : (
