@@ -17,5 +17,10 @@
     gap: 20px;
     overflow-y: scroll;
     justify-content: flex-start;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
   }
 }
