@@ -35,6 +35,7 @@ function Presentation() {
       </div>
       <div className="container_pres__img">
         <Image src={fleurs} width={244} height={328} alt="img_pres" />
+        <div className="container_pres__line"></div>
       </div>
     </div>
   );
