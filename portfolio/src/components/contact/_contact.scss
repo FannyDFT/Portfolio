@@ -125,7 +125,7 @@
       cursor: pointer;
 
       &:hover {
-        background-color: #cabdae;
+        background-color: variables.$light;
         color: variables.$gray;
       }
     }
