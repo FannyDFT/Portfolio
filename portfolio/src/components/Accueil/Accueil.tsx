@@ -19,8 +19,8 @@ function Accueil() {
           <h1>Le Monde à Travers Ma Plume de Codeuse</h1>
           <h2>Transformant des idées en réalité numérique</h2>
           <p>
-            Je suis une développeuse web avec une passion pour la création
-            d'expériences en ligne.{" "}
+            Je suis une développeuse web Fullstack avec une appétence pour le
+            Frontend et
           </p>
           <p>
             Parcourez mes projets pour découvrir mon expertise en développement
