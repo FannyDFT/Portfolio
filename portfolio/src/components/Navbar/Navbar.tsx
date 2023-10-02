@@ -19,7 +19,7 @@ function Navbar() {
     setIsOpen(false);
   };
 
-  const scrollToContact = () => {
+  const scrollToContact = (): void => {
     const contactSection = document.getElementById("contact");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });

@@ -3,16 +3,21 @@
 import { useState, ChangeEvent } from "react";
 import emailjs from "emailjs-com";
 import "./_contact.scss";
-import { info, log } from "console";
+
+interface UserInfos {
+  firstname: string;
+  email: string;
+  message: string;
+}
 
 function Contact() {
-  const [infos, setInfos] = useState({
+  const [infos, setInfos] = useState<UserInfos>({
     firstname: "",
     email: "",
     message: "",
   });
 
-  const handleChangeInput = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChangeInput = (e: ChangeEvent<HTMLInputElement>): void => {
     const { name, value } = e.target;
     setInfos((prevInfos) => ({
       ...prevInfos,
@@ -20,7 +25,7 @@ function Contact() {
     }));
   };
 
-  const handleChangeTextarea = (e: ChangeEvent<HTMLTextAreaElement>) => {
+  const handleChangeTextarea = (e: ChangeEvent<HTMLTextAreaElement>): void => {
     const { name, value } = e.target;
     setInfos((prevInfos) => ({
       ...prevInfos,
@@ -28,7 +33,7 @@ function Contact() {
     }));
   };
 
-  const resetForm = () => {
+  const resetForm = (): void => {
     setInfos({
       firstname: "",
       email: "",
@@ -36,7 +41,7 @@ function Contact() {
     });
   };
 
-  const sendEmail = () => {
+  const sendEmail = (): void => {
     const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
     const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const userId = process.env.NEXT_PUBLIC_USER_ID;

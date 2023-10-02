@@ -1,0 +1,78 @@
+@use "../../variables";
+
+.container-profil {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  &__text {
+    height: 100%;
+    width: 45%;
+
+    display: flex;
+    justify-content: flex-end;
+
+    &__contain {
+      width: 80%;
+      height: 100%;
+      p {
+        width: 100%;
+        height: 85%;
+        font-family: variables.$raleway;
+        font-size: 17px;
+        line-height: 26px;
+        font-weight: 500;
+        color: variables.$brown;
+        padding: 25px 25px 0 25px;
+        text-align: justify;
+      }
+    }
+  }
+
+  &__central-line {
+    height: auto;
+    width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      height: 1px;
+      width: 100%;
+      background-color: variables.$brown;
+      transform: rotate(90deg);
+    }
+  }
+  &__technikalls {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+
+    &__contain {
+      width: 100%;
+      height: 100%;
+
+      &__competences {
+        width: 100%;
+        height: 85%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        font-family: variables.$brown;
+        font-size: 17px;
+        line-height: 26px;
+        color: variables.$brown;
+        text-transform: uppercase;
+        padding: 25px 25px 0 0;
+        li {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

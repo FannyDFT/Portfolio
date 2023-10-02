@@ -1,4 +1,4 @@
-export const technicalskills = [
+export const Technicalskills = [
   { id: 1, name: "HtML" },
   { id: 2, name: "Css" },
   { id: 3, name: "Javascript" },
@@ -19,7 +19,7 @@ export const technicalskills = [
   { id: 18, name: "Git/GitHub" },
 ];
 
-export const projects = [
+export const Projects = [
   {
     id: 1,
     image: "../../../../assets/images/bionbe/accueil.png",
@@ -28,13 +28,13 @@ export const projects = [
   },
   {
     id: 2,
-    image: "",
+    image: "../../../../assets/images/aelys/accueil.png",
     title: "Aelys",
     subtitle: "Projet de stage",
   },
   {
     id: 3,
-    image: "",
+    image: "../../../../assets/images/bijoux_desoins/accueil.png",
     title: "Bijoux de soins",
     subtitle: "Projet autonome",
   },

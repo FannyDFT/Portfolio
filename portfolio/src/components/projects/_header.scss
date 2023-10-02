@@ -1,6 +1,6 @@
 @use "../../variables";
 
-@keyframes bounce {
+@keyframes bounceX {
   100% {
     transform: translateX(0);
   }
@@ -144,7 +144,7 @@
       }
 
       img {
-        animation: bounce 2s infinite;
+        animation: bounceX 2s infinite;
         cursor: pointer;
       }
     }

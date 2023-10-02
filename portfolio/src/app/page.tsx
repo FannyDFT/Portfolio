@@ -3,6 +3,7 @@ import Presentation from "@/components/Presentation/Presentation";
 import MyProjects from "@/components/projects/MyProjects";
 import "./_page.scss";
 import Contact from "@/components/contact/Contact";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Presentation />
       <MyProjects />
       <Contact />
+      <Footer />
     </main>
   );
 }

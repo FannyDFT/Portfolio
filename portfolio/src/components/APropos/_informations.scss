@@ -1,0 +1,156 @@
+@use "../../variables";
+
+.informations-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  &__contain {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-top: 60px;
+    @media screen and (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      width: 100%;
+      height: auto;
+      padding: 0;
+    }
+
+    &__photo {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        padding: 0;
+      }
+
+      &__img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+          height: 100%;
+        }
+        img {
+          width: 390px;
+          height: 430px;
+          @media screen and (max-width: 768px) {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+
+    &__coordinates {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        height: auto;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: center;
+      }
+
+      &__infos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding-right: 70px;
+        @media screen and (max-width: 768px) {
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          padding: 0;
+        }
+
+        h1 {
+          font-family: variables.$yeseva;
+          font-size: 50px;
+          line-height: 40px;
+          font-weight: 500;
+          color: variables.$brown;
+          @media screen and (max-width: 768px) {
+            font-size: 32px;
+            text-align: center;
+          }
+        }
+
+        h2 {
+          font-family: variables.$raleway;
+          font-size: 18px;
+          line-height: 26px;
+          font-weight: 600;
+          text-transform: uppercase;
+          color: variables.$brown;
+          @media screen and (max-width: 768px) {
+            font-size: 18px;
+            text-align: center;
+          }
+        }
+
+        &__info {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+          justify-content: flex-start;
+
+          @media screen and (max-width: 768px) {
+            gap: 30px;
+          }
+
+          &__web {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            p,
+            a {
+              text-decoration: none;
+              font-family: variables.$raleway;
+              font-size: 18px;
+              line-height: 25px;
+              font-weight: 500;
+
+              color: variables.$brown;
+
+              &:hover {
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__profil {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px;
+  }
+}
