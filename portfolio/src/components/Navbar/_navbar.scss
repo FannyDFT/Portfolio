@@ -32,10 +32,10 @@
         color: variables.$gray;
         opacity: 0.9;
       }
-    }
 
-    &__btn {
-      @include variables.button;
+      &:last-child {
+        @include variables.button;
+      }
     }
 
     @media screen and (max-width: 768px) {

@@ -46,13 +46,17 @@ function Navbar() {
         <Link href="/projects" onClick={closeNavbar}>
           Projets
         </Link>
-        <button
+        <Link
+          href="/"
           className="navbar__links__btn"
           type="button"
-          onClick={scrollToContact}
+          onClick={() => {
+            scrollToContact();
+            closeNavbar();
+          }}
         >
           Contact
-        </button>
+        </Link>
       </nav>
       <button type="button" className="navbar__buttons" onClick={showNavbar}>
         {isOpen ? (
