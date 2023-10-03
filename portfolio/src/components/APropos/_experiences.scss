@@ -1,0 +1,30 @@
+@use "../../variables";
+
+.container-experiences {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  padding: 0;
+  gap: 60px;
+
+  &::-webkit-scrollbar {
+    background-color: transparent;
+  }
+
+  > :nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  &__title {
+    font-size: 32px;
+    line-height: 32px;
+    color: variables.$white;
+    font-family: variables.$yeseva;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+}

@@ -2,10 +2,12 @@
 
 import "./_projectslist.scss";
 import ProjectCard from "./ProjectCard";
-import { Projectdetails } from "../../datas/datas";
+import { Projects } from "../../datas/datas";
+import { Project } from "@/type";
 
 function ProjectsList() {
-  const firstThreeProjects = Projectdetails.slice(0, 3);
+  const firstThreeProjects: Project[] = Projects.slice(0, 3);
+  console.log(firstThreeProjects);
 
   return (
     <div className="container_projects">
