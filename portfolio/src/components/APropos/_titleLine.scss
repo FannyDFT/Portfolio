@@ -1,0 +1,35 @@
+@use "../../variables";
+
+.titleLine {
+  width: auto;
+  height: 15%;
+  display: flex;
+  justify-content: flex-start;
+  &__contain {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+
+    h1 {
+      font-family: variables.$raleway;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26px;
+      color: variables.$brown;
+      padding: 25px 0 0 25px;
+      text-transform: uppercase;
+      @media screen and (max-width: 768px) {
+        font-size: 19px;
+      }
+    }
+
+    div {
+      height: 2px;
+      background-color: variables.$brown;
+      width: 53px;
+      margin-left: 54px;
+    }
+  }
+}

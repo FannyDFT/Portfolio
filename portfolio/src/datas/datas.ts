@@ -1,25 +1,26 @@
-export const technicalskills = [
+export const Technicalskills = [
   { id: 1, name: "HtML" },
   { id: 2, name: "Css" },
-  { id: 3, name: "Javascript" },
-  { id: 4, name: "typescript" },
+  { id: 3, name: "JS" },
+  { id: 4, name: "TS" },
   { id: 5, name: "Python" },
   { id: 6, name: "React" },
   { id: 7, name: "Next.js" },
-  { id: 8, name: "tailwindCss" },
+  { id: 8, name: "tailwind" },
   { id: 9, name: "sass" },
-  { id: 10, name: "NeutralinoJs" },
+  { id: 10, name: "Nljs" },
   { id: 11, name: "Node.js" },
   { id: 12, name: "Express" },
   { id: 13, name: "MysQL" },
-  { id: 14, name: "PostgresQL" },
+  { id: 14, name: "Postgres" },
   { id: 15, name: "Prisma" },
   { id: 16, name: "docker" },
   { id: 17, name: "Figma" },
-  { id: 18, name: "Git/GitHub" },
+  { id: 18, name: "Git" },
+  { id: 19, name: "GitHub" },
 ];
 
-export const projects = [
+export const Projects = [
   {
     id: 1,
     image: "../../../../assets/images/bionbe/accueil.png",
@@ -28,13 +29,13 @@ export const projects = [
   },
   {
     id: 2,
-    image: "",
+    image: "../../../../assets/images/aelys/accueil.png",
     title: "Aelys",
     subtitle: "Projet de stage",
   },
   {
     id: 3,
-    image: "",
+    image: "../../../../assets/images/bijoux_desoins/accueil.png",
     title: "Bijoux de soins",
     subtitle: "Projet autonome",
   },
@@ -221,6 +222,94 @@ export const Projectdetails = [
       "Chemin_vers_image1",
       "Chemin_vers_image2",
       "Chemin_vers_image3",
+    ],
+  },
+];
+
+export const Experiences = [
+  {
+    id: 1,
+    name: "Portfolio",
+    company: "Projet en autonomie",
+    duration: "3 semaines",
+    tasks: [
+      "• Création d'une maquette Figma, couvrant les formats mobiles et bureau\n",
+      "• Développement de l'application en utilisant NextJ.js et TypeScript\n",
+      "• Développement du projet avec Prettier et Eslint pour un code propre et organisé\n",
+      "• Déploiement du projet sur Vercel\n",
+    ],
+  },
+  {
+    id: 2,
+    name: "Développeuse Web (Stage)",
+    company: "Pic Digital (64)",
+    duration: "Mars 2023 - Aout 2023",
+    tasks: [
+      "• Développement d’application bureau pour la gestion de commandes avec NeutralinoJs, React et Tailwind",
+      "• Développement d’une modale de recherche responsive pour la recherche d’activités, d’évènements avec Vite, TypeScript, Sass",
+      "• Participation aux sprints, Intégration en équipe, développement de fonctionnalités.",
+      "• Compétence en développement frontend, performance, tests, maintenabilité, débogage",
+      "• Rédaction et maintenance d’une documentation complète",
+    ],
+  },
+  {
+    id: 3,
+    name: "Bijoux de Soins",
+    company: "Projet en autonomie",
+    duration: "Février 2023 - Août 2023",
+    tasks: [
+      "• Application FullStack et Responsive, Site Institut Bijoux de Soins, présenté pour le Titre DWWM",
+      "• Maquette, modélisation de base de données, mis en place d’une API et des routes, développement Frontend",
+      "• Figma-NodeJs-PostgreSql-Express-Prisma-Docker TypeScript NextJs-Github-Tailwind",
+    ],
+  },
+  {
+    id: 4,
+    name: "Projet 3 - Externatic",
+    company: "Wild Code School (64)",
+    duration: "8 semaines",
+    tasks: [
+      "• Réalisation d'une application FullStack et Responsive, Site de recherche d’emploi (Projet de groupe)",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• Figma-NodeJs-PostgreSql-Express-Prisma-Docker TypeScript-NextJs-Github-Tailwind",
+    ],
+  },
+  {
+    id: 5,
+    name: "Hackathon 2 - FleetGo",
+    company: "Wild Code School (64)",
+    duration: "72h00",
+    tasks: [
+      "• Réalisation d'une application FullStack et Responsive - (Projet de groupe), Site sur la gestion location d’une flotte de véhicule",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• Figma-NextJs(Front & Back)-Github-Tailwind-TypeScript",
+    ],
+  },
+  {
+    id: 6,
+    name: "Hackathon 1 - EcoTripr",
+    company: "Wild Code School (64)",
+    duration: "48h00",
+    tasks: [
+      "• Réalisation d'une application Frontend sur le thème du voyage",
+      "• Utilisation des API Pixabay & ClipDrop (Projet de groupe)",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• React-JS-Github-Tailwind-Figma",
+    ],
+  },
+  {
+    id: 7,
+    name: "Projet 2 - WildFit",
+    company: "Wild Code School (64)",
+    duration: "6 semaines",
+    tasks: [
+      "• Réalisation d'une application Frontend et Responsive - (Projet de groupe), Interagir avec une API",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• HTML5-CSS-JS-REACT-Tailwind-Git-Github",
     ],
   },
 ];
