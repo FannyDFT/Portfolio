@@ -1,5 +1,17 @@
 @use "../../variables";
 
+@keyframes bounceY {
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(10px);
+  }
+}
+
 .about {
   display: flex;
   flex-direction: column;
@@ -19,11 +31,26 @@
   }
 
   &__experiences {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-color: variables.$gray;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    position: relative;
     @media screen and (max-width: 768px) {
       height: 50%;
+    }
+    &__down {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 100px;
+      animation: bounceY 2s infinite;
+      @media screen and (max-width: 768px) {
+        top: 25px;
+        left: 45%;
+      }
     }
   }
 }

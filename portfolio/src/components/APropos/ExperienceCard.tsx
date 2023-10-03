@@ -1,12 +1,39 @@
 import React from "react";
+import "./_experiencesCard.scss";
+import computer from "../../../public/assets/images/icones/computer.png";
+import Image from "next/image";
+interface ExperiencesProps {
+  name: string;
+  company: string;
+  duration: string;
+  tasks: string[];
+}
 
-function ExperienceCard() {
+function ExperienceCard({ name, company, duration, tasks }: ExperiencesProps) {
   return (
-    <div>
-      <div className="container-experiences">
-        <div className="container-experiences__card"> </div>
-        <div className="container-experiences__line"></div>
-        <div className="container-experiences__name"></div>
+    <div className="experiences">
+      <div className="experiences__card">
+        <div className="experiences__card__tasks">
+          {tasks.map((task, index) => (
+            <p key={index}>{task}</p>
+          ))}
+        </div>
+      </div>
+      <div className="experiences__containe-line">
+        <div className="experiences__containe-line__contain">
+          <span className="experiences__containe-line__contain__line"></span>
+          <span className="experiences__containe-line__contain__circle">
+            <Image src={computer} width={30} height={30} alt="computer" />
+          </span>
+        </div>
+      </div>
+      <div className="experiences__name">
+        <div className="experiences__name__details">
+          <h1>
+            {company} - {duration}
+          </h1>
+          <h2>{name}</h2>
+        </div>
       </div>
     </div>
   );

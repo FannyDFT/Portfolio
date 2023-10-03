@@ -225,3 +225,91 @@ export const Projectdetails = [
     ],
   },
 ];
+
+export const Experiences = [
+  {
+    id: 1,
+    name: "Portfolio",
+    company: "Projet en autonomie",
+    duration: "3 semaines",
+    tasks: [
+      "• Création d'une maquette Figma, couvrant les formats mobiles et bureau\n",
+      "• Développement de l'application en utilisant NextJ.js et TypeScript\n",
+      "• Développement du projet avec Prettier et Eslint pour un code propre et organisé\n",
+      "• Déploiement du projet sur Vercel\n",
+    ],
+  },
+  {
+    id: 2,
+    name: "Développeuse Web (Stage)",
+    company: "Pic Digital (64)",
+    duration: "Mars 2023 - Aout 2023",
+    tasks: [
+      "• Développement d’application bureau pour la gestion de commandes avec NeutralinoJs, React et Tailwind",
+      "• Développement d’une modale de recherche responsive pour la recherche d’activités, d’évènements avec Vite, TypeScript, Sass",
+      "• Participation aux sprints, Intégration en équipe, développement de fonctionnalités.",
+      "• Compétence en développement frontend, performance, tests, maintenabilité, débogage",
+      "• Rédaction et maintenance d’une documentation complète",
+    ],
+  },
+  {
+    id: 3,
+    name: "Bijoux de Soins",
+    company: "Projet en autonomie",
+    duration: "Février 2023 - Août 2023",
+    tasks: [
+      "• Application FullStack et Responsive, Site Institut Bijoux de Soins, présenté pour le Titre DWWM",
+      "• Maquette, modélisation de base de données, mis en place d’une API et des routes, développement Frontend",
+      "• Figma-NodeJs-PostgreSql-Express-Prisma-Docker TypeScript NextJs-Github-Tailwind",
+    ],
+  },
+  {
+    id: 4,
+    name: "Projet 3 - Externatic",
+    company: "Wild Code School (64)",
+    duration: "8 semaines",
+    tasks: [
+      "• Réalisation d'une application FullStack et Responsive, Site de recherche d’emploi (Projet de groupe)",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• Figma-NodeJs-PostgreSql-Express-Prisma-Docker TypeScript-NextJs-Github-Tailwind",
+    ],
+  },
+  {
+    id: 5,
+    name: "Hackathon 2 - FleetGo",
+    company: "Wild Code School (64)",
+    duration: "72h00",
+    tasks: [
+      "• Réalisation d'une application FullStack et Responsive - (Projet de groupe), Site sur la gestion location d’une flotte de véhicule",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• Figma-NextJs(Front & Back)-Github-Tailwind-TypeScript",
+    ],
+  },
+  {
+    id: 6,
+    name: "Hackathon 1 - EcoTripr",
+    company: "Wild Code School (64)",
+    duration: "48h00",
+    tasks: [
+      "• Réalisation d'une application Frontend sur le thème du voyage",
+      "• Utilisation des API Pixabay & ClipDrop (Projet de groupe)",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• React-JS-Github-Tailwind-Figma",
+    ],
+  },
+  {
+    id: 7,
+    name: "Projet 2 - WildFit",
+    company: "Wild Code School (64)",
+    duration: "6 semaines",
+    tasks: [
+      "• Réalisation d'une application Frontend et Responsive - (Projet de groupe), Interagir avec une API",
+      "• Collaboration méthode agile",
+      "• Conception d'une maquette reponsive",
+      "• HTML5-CSS-JS-REACT-Tailwind-Git-Github",
+    ],
+  },
+];

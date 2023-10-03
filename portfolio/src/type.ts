@@ -23,3 +23,12 @@ export interface ProjectDetail extends Project {
   technologies: string[];
   imageGallery: string[];
 }
+
+// Interface pour les expériences
+export interface ExperienceType {
+  id: number;
+  name: string;
+  company: string;
+  duration: string;
+  tasks: string[];
+}
