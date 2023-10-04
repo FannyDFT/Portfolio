@@ -41,13 +41,13 @@ export const Projects = [
   },
   {
     id: 4,
-    image: "",
+    image: "../../../../assets/images/externatic/accueil.png",
     title: "Externatic",
     subtitle: "Projet de Formation en Groupe",
   },
   {
     id: 5,
-    image: "",
+    image: "../../../../assets/images/ecotripr/accueil.png",
     title: "Ecotripr",
     subtitle: "Projet de Formation en Groupe",
   },
@@ -184,7 +184,7 @@ export const Projectdetails = [
       "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "typescript", "sass"],
-    image: "../../../assets/images/",
+    image: "../../../../assets/images/ecotripr/accueil.png",
     imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
   },
   {
@@ -195,7 +195,7 @@ export const Projectdetails = [
       "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "typescript", "sass"],
-    image: "Chemin_vers_une_image",
+    image: "../../../../assets/images/fleetgo/accueil1.png",
     imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
   },
   {
