@@ -2,7 +2,7 @@ import React from "react";
 import "./_accueil.scss";
 import Image from "next/image";
 import fond from "../../../public/assets/images/photos/panier.jpeg";
-import photo from "../../../public/assets/images/photos/accueil.jpeg";
+import photo from "../../../public/assets/images/photos/photo-accueil.jpg";
 import Link from "next/link";
 
 function Accueil() {
