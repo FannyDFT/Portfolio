@@ -1,0 +1,10 @@
+@use "../../variables";
+
+.container-projectsList {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: variables.$light;
+  border-bottom: 1px solid variables.$brown;
+}
