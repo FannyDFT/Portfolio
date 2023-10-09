@@ -80,7 +80,7 @@ export const Projectdetails = [
     description:
       "Ce projet à été réalisé durant de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
     technologiestitle: "Les technologies utilisées",
-    technologies: ["Vite", "typescript", "sass"],
+    technologies: ["Vite", "TS", "sass"],
     image: "../../../assets/images/bionbe/accueil.png",
     imageGallery: [
       "../../../assets/images/bionbe/accueil.png",
@@ -97,7 +97,7 @@ export const Projectdetails = [
     description:
       "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer l'interface et l'utilisation du site pour les employés du magasin Aelys afin qu'ils puissent gérer leuurs commandes facilement. Pour cela j'ai utilisé NeutralinoJs qui m'a permi de concevoir un application bureau compatible avec toute les plateformes, ainsi que React et son framework Vite",
     technologiestitle: "Les technologies utilisées",
-    technologies: ["Vite", "typescript", "sass"],
+    technologies: ["Vite", "TS", "sass"],
     image: "../../../assets/images/aelys/accueil.png",
     imageGallery: [
       "../../../assets/images/aelys/accueil.png",
@@ -113,11 +113,11 @@ export const Projectdetails = [
       "J'ai réalisé ce projet à au cour de ma formation et de mon stage de la conception de la maquette, en passant par la modélisation de la base de donnée jusqu'au développement des fonctionnalités. il a été nécessaire pour moi afin de reprendre toutes les compétences vu pendant mes précédentes expériences et pratiquer seule. C'est un projet Fullstack que j'ai présenté lors de mon passage du titre de développeur web et web mobile. il est encoore en cours de construction et reste des fonctionnalités à implémenter telle que la prise de rendez vous. Je suis fière du travaille accomplis jusqu'ici et compte bien continuer à améliorer ce site.",
     technologiestitle: "Les technologies utilisées",
     technologies: [
-      "NextJs",
-      "typescript",
+      "Next.Js",
+      "ts",
       "tailwind",
       "Node.js",
-      "PostresQL",
+      "Postgres",
       "Express",
       "Prisma",
       "docker",
@@ -153,11 +153,11 @@ export const Projectdetails = [
       "Ce projet à été réalisé au cour de ma formation en groupe de trois sur une durée de 8 semaines. Le but était de mettre en pratique nos connaissances nouvellement asquises. Nous devions construire un site Fullstack. Cela nous à permit d'appréhender de nouvelles technologies telles que Prisma et typescript",
     technologiestitle: "Les technologies utilisées",
     technologies: [
-      "NextJs",
-      "typescript",
+      "Next.js",
+      "ts",
       "tailwind",
       "Node.js",
-      "PostresQL",
+      "Postres",
       "Express",
       "Prisma",
       "docker",
@@ -183,7 +183,7 @@ export const Projectdetails = [
     description:
       "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
     technologiestitle: "Les technologies utilisées",
-    technologies: ["Vite", "typescript", "sass"],
+    technologies: ["Vite", "TS", "sass"],
     image: "../../../../assets/images/ecotripr/accueil.png",
     imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
   },
@@ -194,7 +194,7 @@ export const Projectdetails = [
     description:
       "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
     technologiestitle: "Les technologies utilisées",
-    technologies: ["Vite", "typescript", "sass"],
+    technologies: ["Vite", "TS", "sass"],
     image: "../../../../assets/images/fleetgo/accueil1.png",
     imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
   },
@@ -205,7 +205,7 @@ export const Projectdetails = [
     description:
       "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
     technologiestitle: "Les technologies utilisées",
-    technologies: ["Vite", "typescript", "sass"],
+    technologies: ["Vite", "TS", "sass"],
     image: "../../../assets/images/WildFit/accueil.png",
     imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
   },
@@ -216,7 +216,7 @@ export const Projectdetails = [
     description:
       "Ce projet était le premier de ma formation. il nous a permis de nous familiariser avec les langages de base du développement web (HtML, Css, Javascript). Nous l’avons réalisé par groupe de 4 et avons chacun travaillé sur une page différente du site. Pour ma part j’ai réalisé la page contact, avec la création d’une navigation responsive, un formulaire de contact, comprenant quelques animations, une validation du message à la soumission du formulaire, une carte indiquant l’emplacement de l’école, ainsi qu’un Footer avec l’accès aux différents réseaux sociaux de l’école.",
     technologiestitle: "Les technologies utilisées",
-    technologies: ["HtML", "Css", "Javascript"],
+    technologies: ["HTML", "Css", "JS"],
     image: "../../../assets/images/wsc_siteweb/contact.png",
     imageGallery: [
       "Chemin_vers_image1",
