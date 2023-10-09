@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import "./_projectcard.scss";
+import Button from "../../Button/Button";
 
 interface ProjectCardProps {
   image: string;
@@ -26,7 +27,7 @@ function ProjectCard({ image, title, subtitle }: ProjectCardProps) {
       <div className="container_card__text">
         <h1>{title}</h1>
         <h2>{subtitle}</h2>
-        <button type="button">Découvrir</button>
+        <Button type="button" text="Découvrir" link="/projects" />
         <div className="container_card__text__line">
           <div className="container_card__text__line__style"></div>
         </div>

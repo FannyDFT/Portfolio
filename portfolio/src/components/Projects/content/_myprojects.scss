@@ -1,15 +1,16 @@
-@use "../../variables";
+@use "../../../variables";
 
 .box {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 80px;
   margin: 0;
   box-sizing: border-box;
   background-color: variables.$light;
   gap: 60px;
+
   @media screen and (max-width: 768px) {
     gap: 60px;
     padding-bottom: 50px;
