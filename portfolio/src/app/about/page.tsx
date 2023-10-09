@@ -1,5 +1,5 @@
-import Experiences from "@/components/APropos/Experiences";
-import Informations from "@/components/APropos/Informations";
+import Experiences from "@/components/CV/Experiences";
+import Informations from "@/components/CV/Informations";
 import React from "react";
 import "./_about.scss";
 import down from "../../../public/assets/images/icones/down.png";

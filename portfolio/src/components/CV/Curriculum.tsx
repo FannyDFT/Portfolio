@@ -3,7 +3,7 @@ import "./_profil.scss";
 import { Technicalskills } from "@/datas/datas";
 import Title from "./Title";
 
-function Profil() {
+function Curriculum() {
   return (
     <div className="container-profil">
       <div className="container-profil__text">
@@ -34,4 +34,4 @@ function Profil() {
   );
 }
 
-export default Profil;
+export default Curriculum;

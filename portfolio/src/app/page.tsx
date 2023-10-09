@@ -1,8 +1,8 @@
-import Accueil from "@/components/Accueil/Accueil";
-import Presentation from "@/components/Presentation/Presentation";
-import MyProjects from "@/components/projects-accueil/MyProjects";
+import Accueil from "@/components/Home/Home";
+import Presentation from "@/components/About/About";
+import MyProjects from "@/components/Projects/content/MyProjects";
 import "./_page.scss";
-import Contact from "@/components/contact/Contact";
+import Contact from "@/components/Contact/Contact";
 
 export default function Home() {
   return (

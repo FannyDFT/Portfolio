@@ -5,7 +5,7 @@ import { Experiences as ExperienceData } from "../../datas/datas";
 import { ExperienceType } from "@/type";
 
 function Experiences() {
-  const experiences: ExperienceType[] = ExperienceData; // Utilisez ExperienceData au lieu de Experiences
+  const experiences: ExperienceType[] = ExperienceData;
   console.log(experiences);
 
   return (

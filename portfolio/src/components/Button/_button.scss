@@ -1,0 +1,6 @@
+@use "../../variables";
+
+.button {
+  @include variables.button;
+  text-decoration: none;
+}

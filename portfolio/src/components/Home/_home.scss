@@ -1,0 +1,113 @@
+@use "../../variables";
+
+.container-home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  &__img {
+    height: 100vh;
+    width: 30%;
+    position: relative;
+    @media screen and (max-width: 768px) {
+      height: 163px;
+      width: 100%;
+    }
+
+    img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      opacity: 0.6;
+      @media screen and (max-width: 768px) {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    &__photo {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 140px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        height: 250px;
+        left: 0;
+        top: 20px;
+        justify-content: center;
+      }
+
+      img {
+        opacity: 1;
+        filter: saturate(80%);
+        height: 75%;
+        width: 70%;
+        object-fit: cover;
+        border-radius: 108px 108px 0 0;
+        @media screen and (max-width: 768px) {
+          width: 255px;
+          height: 235px;
+        }
+      }
+    }
+  }
+
+  &__content {
+    height: 100vh;
+    width: 70%;
+    background-color: variables.$light;
+    display: flex;
+    justify-content: flex-end;
+    @media screen and (max-width: 768px) {
+      height: auto;
+      width: 100%;
+    }
+
+    &__profil {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      height: 100%;
+      gap: 60px;
+      @media screen and (max-width: 768px) {
+        height: auto;
+        width: 100%;
+        padding-bottom: 40px;
+        gap: 0;
+      }
+
+      &__text {
+        display: flex;
+        width: 80%;
+        height: 70%;
+        @media screen and (max-width: 768px) {
+          height: auto;
+          width: 100%;
+          margin: 0;
+          padding: 20px;
+        }
+      }
+
+      &__button {
+        display: flex;
+        width: 80%;
+        height: 30%;
+        @media screen and (max-width: 768px) {
+          justify-content: center;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
