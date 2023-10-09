@@ -15,10 +15,7 @@
 .header-more {
   display: flex;
   align-items: center;
-
   gap: 20px;
-  width: 30%;
-  height: 100%;
 
   @media screen and (max-width: 768px) {
     width: 100%;
