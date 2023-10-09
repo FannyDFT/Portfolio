@@ -1,0 +1,59 @@
+@use "../../variables";
+
+.profil {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 30px;
+  @media screen and (max-width: 768px) {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 20px 20px 50px 20px;
+    align-items: center;
+    gap: 30px;
+  }
+
+  h1 {
+    font-family: variables.$yeseva;
+    color: variables.$brown;
+    font-size: 40px;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      padding: 80px 20px 0 20px;
+      letter-spacing: 1px;
+      line-height: 50px;
+      font-size: 39px;
+    }
+  }
+
+  h2 {
+    font-family: variables.$raleway;
+    color: variables.$brown;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      font-weight: 500;
+      font-size: 15;
+      letter-spacing: 1px;
+    }
+  }
+
+  p {
+    font-family: variables.$raleway;
+    color: variables.$brown;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 17px;
+    text-align: justify;
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      font-weight: 400;
+      font-size: 16;
+    }
+  }
+}

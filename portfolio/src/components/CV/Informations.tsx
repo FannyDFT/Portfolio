@@ -10,7 +10,7 @@ import "./_informations.scss";
 
 import ContactInfos from "./ContactInfos";
 import Experiences from "./Experiences";
-import Profil from "./Profil";
+import Profil from "./Curriculum";
 
 const coordonneesData = [
   { id: 1, image: phone, texte: "06 83 43 06 36", alt: "phone" },

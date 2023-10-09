@@ -1,0 +1,49 @@
+@use "../../../variables";
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 200px;
+  align-items: flex-end;
+  width: 70%;
+  height: 100%;
+  gap: 20px;
+  color: variables.$brown;
+
+  @media screen and (max-width: 768px) {
+    padding-top: 50px;
+    padding-left: 0;
+    width: 100%;
+    gap: 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    font-family: variables.$yeseva;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 32px;
+      line-height: 32px;
+    }
+  }
+
+  h2 {
+    font-family: variables.$raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    @media screen and (max-width: 768px) {
+      font-size: 19px;
+      line-height: 21px;
+      text-align: center;
+    }
+  }
+}

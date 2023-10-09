@@ -9,6 +9,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../projects-accueil/_projectcard.scss";
 import Link from "next/link";
+import TitleProjects from "../projects-accueil/TitleProjects/TitleProjects";
 
 function AllProjectsList() {
   const responsive = {
@@ -32,7 +33,7 @@ function AllProjectsList() {
 
   return (
     <div className="projects-contain">
-      <Header />
+      <TitleProjects />
       <Carousel responsive={responsive}>
         {Projectdetails &&
           Projectdetails.map((item) => (

@@ -1,5 +1,5 @@
-import Accueil from "@/components/Accueil/Accueil";
-import Presentation from "@/components/Presentation/Presentation";
+import Accueil from "@/components/Home/Home";
+import Presentation from "@/components/About/About";
 import MyProjects from "@/components/projects-accueil/MyProjects";
 import "./_page.scss";
 import Contact from "@/components/contact/Contact";
