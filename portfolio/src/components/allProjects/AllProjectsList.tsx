@@ -8,11 +8,11 @@ import Header from "../projects-accueil/Header";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../projects-accueil/_projectcard.scss";
+import Link from "next/link";
 
 function AllProjectsList() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 1920, min: 1200 },
       items: 3,
     },
@@ -36,16 +36,17 @@ function AllProjectsList() {
       <Carousel responsive={responsive}>
         {Projectdetails &&
           Projectdetails.map((item) => (
-            <ProjectCard
-              key={item.id}
-              image={item.image}
-              title={item.title}
-              subtitle={item.subtitle}
-              description={item.description}
-              technologiestitle={item.technologiestitle}
-              technologies={item.technologies}
-              imageGallery={item.imageGallery}
-            />
+            <Link href={`/projects/${item.id}`} key={item.id}>
+              <ProjectCard
+                image={item.image}
+                title={item.title}
+                subtitle={item.subtitle}
+                description={item.description}
+                technologiestitle={item.technologiestitle}
+                technologies={item.technologies}
+                imageGallery={item.imageGallery}
+              />
+            </Link>
           ))}
       </Carousel>
     </div>

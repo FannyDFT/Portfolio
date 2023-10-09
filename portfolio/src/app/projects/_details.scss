@@ -1,0 +1,171 @@
+@use "../../variables";
+
+.container-details {
+  width: 100%;
+  height: 100vh;
+  background-color: variables.$light;
+  border-bottom: 2px dotted variables.$brown;
+  display: flex;
+
+  &__text {
+    width: 50%;
+    height: 100%;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    h1 {
+      width: 100%;
+      font-family: variables.$yeseva;
+      color: variables.$brown;
+      font-size: 40px;
+      line-height: 55px;
+      letter-spacing: 1px;
+      font-weight: 400;
+    }
+    h2 {
+      width: 100%;
+      text-transform: uppercase;
+      font-family: variables.$raleway;
+      color: variables.$brown;
+      font-size: 17px;
+      line-height: 26px;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+
+    p {
+      width: 100%;
+      font-family: variables.$raleway;
+      color: variables.$brown;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 1px;
+      font-weight: 400;
+      text-align: justify;
+    }
+
+    &__technos {
+      width: 100%;
+      //   height: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      h3 {
+        width: 100%;
+
+        font-family: variables.$raleway;
+        color: variables.$brown;
+        font-size: 17px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      &__techno {
+        width: 100%;
+        display: flex;
+        gap: 15px;
+        justify-content: flex-start;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+          background: transparent;
+        }
+        p {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 94px;
+          height: 94px;
+          color: variables.$light;
+          background-color: variables.$brown;
+          padding: 33px;
+          border-radius: 50%;
+          font-family: variables.$raleway;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          font-weight: 500;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &__img {
+    width: 50%;
+    height: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+
+    &__contain-text {
+      display: flex;
+      gap: 25px;
+
+      &__gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 15px;
+
+        p {
+          width: 100%;
+          font-family: variables.$raleway;
+          color: variables.$brown;
+          font-size: 18px;
+          line-height: 26px;
+          letter-spacing: 1px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+
+        span {
+          background-color: variables.$brown;
+          width: 53px;
+          height: 2px;
+        }
+      }
+    }
+
+    &__back-project {
+      display: flex;
+      gap: 20px;
+
+      &__contain-line {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-end;
+        a {
+          text-decoration: none;
+        }
+
+        h3 {
+          width: 100%;
+          font-family: variables.$raleway;
+          color: variables.$brown;
+          font-size: 19px;
+          line-height: 19px;
+          letter-spacing: 1px;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+
+        span {
+          background-color: variables.$brown;
+          width: 53px;
+          height: 2px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
