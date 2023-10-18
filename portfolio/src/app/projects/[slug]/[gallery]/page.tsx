@@ -71,7 +71,7 @@ function Gallery({ params }: ProjectProps) {
         </div>
       </div>
 
-      {isModalOpen && (
+      {isModalOpen && selectedImageIndex && projectDetails && (
         <Modale
           imageProjects={`/${projectDetails.imageGallery[selectedImageIndex]}`}
           closeModale={openModal}
