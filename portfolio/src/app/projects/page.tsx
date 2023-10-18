@@ -51,6 +51,7 @@ function AllProjects() {
                   technologiestitle={item.technologiestitle}
                   technologies={item.technologies}
                   imageGallery={item.imageGallery}
+                  projectLink={`/projects/${item.id.toString()}`}
                 />
               </Link>
             ))}

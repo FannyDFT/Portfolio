@@ -21,6 +21,7 @@ function MyProjects() {
               image={project.image}
               title={project.title}
               subtitle={project.subtitle}
+              projectLink={`/projects/${project.id.toString()}`}
             />
           ))}
       </div>
