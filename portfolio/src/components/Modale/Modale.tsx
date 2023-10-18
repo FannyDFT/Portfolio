@@ -5,10 +5,14 @@ import close from "../../../public/assets/images/icones/close.png";
 
 interface ImageProps {
   imageProjects: string;
-  closeModale: () => boolean;
+  closeModale: (index: number) => void;
 }
 
 function Modale({ imageProjects, closeModale }: ImageProps) {
+  const handleImageClick = () => {
+    const index = 0;
+    closeModale(index);
+  };
   return (
     <div className="modal-content">
       <Image
@@ -17,7 +21,7 @@ function Modale({ imageProjects, closeModale }: ImageProps) {
         height={40}
         alt="close"
         className="modal-content__close-button"
-        onClick={closeModale}
+        onClick={handleImageClick}
       />
       <div className="modal-content__image">
         <Image src={imageProjects} width={1028} height={523} alt="img" />
