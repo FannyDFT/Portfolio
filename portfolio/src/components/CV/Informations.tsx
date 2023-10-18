@@ -30,7 +30,7 @@ function Informations() {
         </div>
         <div className="informations-container__contain__coordinates">
           <div className="informations-container__contain__coordinates__infos">
-            <h1>Fanny D'Erfurth</h1>
+            <h1>Fanny D&apos;'Erfurth</h1>
             <h2>Coordonnées</h2>
             <div className="informations-container__contain__coordinates__infos__info">
               {coordonneesData.map((coordonnee) => (

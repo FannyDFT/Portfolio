@@ -24,10 +24,10 @@ function Footer() {
         </div>
 
         <div className="footer__container__text">
-          <h1>Fanny D'Erfurth</h1>
+          <h1>Fanny D&apos;'Erfurth</h1>
           <h2>
             Pour moi, le travail bien fait, la persévérance et la bienveillance
-            sont les piliers d'une réussite durable
+            sont les piliers d&apos;'une réussite durable
           </h2>
         </div>
         <div className="footer__container__follow">
