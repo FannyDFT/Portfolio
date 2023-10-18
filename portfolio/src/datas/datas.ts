@@ -171,7 +171,7 @@ export const Projectdetails = [
       "../../../assets/images/externatic/offres.png",
       "../../../assets/images/externatic/mobile_accueil.png",
       "../../../assets/images/externatic/mobile_offres.png",
-      "../../../assets/images/externatic/profile.png",
+      "../../../assets/images/externatic/mobile_profile.png",
       "../../../assets/images/externatic/mobile_footer.png",
       "../../../assets/images/externatic/navbar_mobile.png",
     ],

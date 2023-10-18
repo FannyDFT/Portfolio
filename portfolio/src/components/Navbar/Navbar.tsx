@@ -9,12 +9,23 @@ import close from "../../../public/assets/images/icones/close_menu.png";
 import Link from "next/link";
 import { myLinks } from "./link";
 
+interface LinkItem {
+  id: number;
+  link: string;
+  title: string;
+}
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [linkIsActive, setLinkIsActive] = useState<boolean>(false);
+  const [linkIsActive, setLinkIsActive] = useState<{ [key: number]: boolean }>(
+    {},
+  );
 
-  const changeColorText = () => {
-    setLinkIsActive(!linkIsActive);
+  const changeColorText = (linkId: number) => {
+    setLinkIsActive((prev) => ({
+      ...prev,
+      [linkId]: !prev[linkId],
+    }));
   };
 
   const showNavbar = () => {
@@ -46,11 +57,12 @@ function Navbar() {
         {myLinks.map((link) => (
           <Link
             key={link.id}
-            href={link.link}
+            href={link.href}
             onClick={() => {
-              closeNavbar(), changeColorText();
+              closeNavbar();
+              changeColorText(link.id);
             }}
-            className={`${linkIsActive} ? navabar__links__isActive : "" `}
+            className={linkIsActive ? "navbar__links__isActive" : ""}
           >
             {link.title}
           </Link>
