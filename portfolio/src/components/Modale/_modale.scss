@@ -7,7 +7,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: variables.$gray;
+  position: absolute;
 
   &__close-button {
     position: absolute;
@@ -18,9 +19,15 @@
     font-weight: 800;
     color: variables.$gray;
     opacity: 1;
+    cursor: pointer;
   }
 
   &__image {
-    opacity: 1;
+    height: 500px;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
   }
 }
