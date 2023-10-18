@@ -75,8 +75,8 @@ function Contact() {
         <h1>Contactez moi !</h1>
         <p>
           Si vous avez des questions supplémentaires je suis à votre
-          disposition. N'hésitez pas à me contacter, je serais ravi d'échanger
-          avec vous.
+          disposition. N&apos;'hésitez pas à me contacter, je serais ravi
+          d&apos;'échanger avec vous.
         </p>
       </div>
       <form className="contact__form">
