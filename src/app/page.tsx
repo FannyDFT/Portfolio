@@ -2,7 +2,7 @@ import Accueil from "@/components/Home/Home";
 import Presentation from "@/components/About/About";
 import MyProjects from "@/components/Projects/content/MyProjects";
 import "./_page.scss";
-import Contact from "@/components/Contact/Contact";
+import Contact from "@/components/contact/Contact";
 
 export default function Home() {
   return (
