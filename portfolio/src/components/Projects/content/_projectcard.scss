@@ -104,12 +104,12 @@
     &__line {
       width: 100%;
       height: 25%;
-      padding-top: 40px;
+      padding-top: 20px;
 
       &__style {
         width: 100%;
         height: 2px;
-        background-color: variables.$brown; /* Couleur de la ligne (noir dans cet exemple) */
+        background-color: variables.$brown;
         border: none;
       }
     }

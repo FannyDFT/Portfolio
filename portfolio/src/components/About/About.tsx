@@ -5,6 +5,7 @@ import Button from "../Button/Button";
 import img from "../../../public/assets/images/photos/pres.png";
 import fleurs from "../../../public/assets/images/photos/fleurs.jpeg";
 import "./_about.scss";
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -31,8 +32,8 @@ function About() {
       </div>
       <div className="container_about__img">
         <Image src={fleurs} width={244} height={328} alt="img_pres" />
-        <div className="container_about__img__line"></div>
       </div>
+      <div className="container_about__line"></div>
     </div>
   );
 }

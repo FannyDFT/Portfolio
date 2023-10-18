@@ -11,6 +11,10 @@
   position: relative;
   z-index: 2;
 
+  @media screen and (max-width: 768px) {
+    position: fixed;
+  }
+
   &__links {
     width: 100%;
     display: flex;
@@ -53,6 +57,10 @@
 
       &__navbar_active {
         right: 0px;
+      }
+
+      &__isActive {
+        color: variables.$gray;
       }
     }
   }

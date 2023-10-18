@@ -7,9 +7,15 @@ import logo from "../../../public/assets/images/icones/logo.png";
 import open from "../../../public/assets/images/icones/open.png";
 import close from "../../../public/assets/images/icones/close_menu.png";
 import Link from "next/link";
+import { myLinks } from "./link";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [linkIsActive, setLinkIsActive] = useState<boolean>(false);
+
+  const changeColorText = () => {
+    setLinkIsActive(!linkIsActive);
+  };
 
   const showNavbar = () => {
     setIsOpen(!isOpen);
@@ -23,7 +29,7 @@ function Navbar() {
     const contactSection = document.getElementById("contact");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });
-      closeNavbar(); // Fermez la barre de navigation après le clic
+      closeNavbar();
     }
   };
 
@@ -37,15 +43,19 @@ function Navbar() {
           isOpen ? "navbar__links__navbar_active" : "navbar__links__navbar"
         }`}
       >
-        <Link href="/" onClick={closeNavbar}>
-          Accueil
-        </Link>
-        <Link href="/about" onClick={closeNavbar}>
-          à Propos
-        </Link>
-        <Link href="/projects" onClick={closeNavbar}>
-          Projets
-        </Link>
+        {myLinks.map((link) => (
+          <Link
+            key={link.id}
+            href={link.link}
+            onClick={() => {
+              closeNavbar(), changeColorText();
+            }}
+            className={`${linkIsActive} ? navabar__links__isActive : "" `}
+          >
+            {link.title}
+          </Link>
+        ))}
+
         <Link
           href="/"
           className="navbar__links__btn"
