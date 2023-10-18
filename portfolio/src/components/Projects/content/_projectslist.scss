@@ -9,6 +9,14 @@
   align-items: center;
   gap: 40px;
   padding: 0 80px 40px 80px;
+  @media screen and ((min-width: 768px) and (max-width: 991px)) {
+    overflow-x: scroll;
+    justify-content: flex-start;
+    padding-top: 45px;
+    &::-webkit-scrollbar {
+      background: transparent;
+    }
+  }
 
   @media screen and (max-width: 768px) {
     height: 80%;
@@ -17,6 +25,5 @@
     flex-direction: column;
     gap: 80px;
     justify-content: flex-start;
-    padding: 0;
   }
 }

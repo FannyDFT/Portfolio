@@ -84,7 +84,7 @@ export const Projectdetails = [
     image: "../../../assets/images/bionbe/accueil.png",
     imageGallery: [
       "../../../assets/images/bionbe/accueil.png",
-      "../../../assets/images/bionbe/mobile_accueil.png",
+      "../../../assets/images/bionbe/mobile-accueil.png",
       "../../../assets/images/bionbe/mobile1.png",
       "../../../assets/images/bionbe/recherche.png",
       "../../../assets/images/bionbe/tablette.png",
@@ -267,7 +267,7 @@ export const Experiences = [
     id: 4,
     name: "Projet 3 - Externatic",
     company: "Wild Code School (64)",
-    duration: "8 semaines",
+    duration: "Décembre 2022 - Février 2023",
     tasks: [
       "• Réalisation d'une application FullStack et Responsive, Site de recherche d’emploi (Projet de groupe)",
       "• Collaboration méthode agile",
@@ -304,7 +304,7 @@ export const Experiences = [
     id: 7,
     name: "Projet 2 - WildFit",
     company: "Wild Code School (64)",
-    duration: "6 semaines",
+    duration: "Novembre 2022 - Décembre 2022",
     tasks: [
       "• Réalisation d'une application Frontend et Responsive - (Projet de groupe), Interagir avec une API",
       "• Collaboration méthode agile",

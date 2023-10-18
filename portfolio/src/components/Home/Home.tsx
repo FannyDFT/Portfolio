@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "framer-motion";
 import React from "react";
 import Image from "next/image";
 import Button from "../Button/Button";
@@ -11,9 +13,14 @@ function Accueil() {
     <div className="container-home">
       <div className="container-home__img">
         <Image src={fond} width={400} height={400} alt="content image" />
-        <div className="container-home__img__photo">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="container-home__img__photo"
+        >
           <Image src={photo} width={304} height={477} alt="fond" />
-        </div>
+        </motion.div>
       </div>
       <div className="container-home__content">
         <div className="container-home__content__profil">

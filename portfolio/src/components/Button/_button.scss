@@ -3,4 +3,9 @@
 .button {
   @include variables.button;
   text-decoration: none;
+  transition: transform 300ms;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }

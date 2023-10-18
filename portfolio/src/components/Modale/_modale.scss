@@ -1,0 +1,26 @@
+@use "../../variables";
+
+.modal-content {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+
+  &__close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 55px;
+    font-family: variables.$raleway;
+    font-weight: 800;
+    color: variables.$gray;
+    opacity: 1;
+  }
+
+  &__image {
+    opacity: 1;
+  }
+}

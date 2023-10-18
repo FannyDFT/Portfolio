@@ -12,8 +12,6 @@ interface ProjectProps {
 }
 
 function Project({ params }: ProjectProps) {
-  console.log(params.slug);
-
   // Récupérer l'ID du projet et le convertir en nombre
   const projectId = parseInt(params.slug, 10);
 
@@ -45,10 +43,13 @@ function Project({ params }: ProjectProps) {
       </div>
       <div className="container-details__img">
         <div className="container-details__img__contain-text">
-          <div className="container-details__img__contain-text__gallery">
+          <Link
+            href={`${projectId}/gallery`}
+            className="container-details__img__contain-text__gallery"
+          >
             <p>Galerie photos</p>
             <span></span>
-          </div>
+          </Link>
           <Image src={arrow} width={30} height={30} alt="arrow" />
         </div>
         <Image
@@ -56,6 +57,7 @@ function Project({ params }: ProjectProps) {
           width={563}
           height={281}
           alt="image"
+          className="container-details__img__imgProject"
         />
         <div className="container-details__img__back-project">
           <div className="container-details__img__back-project__contain-line">
