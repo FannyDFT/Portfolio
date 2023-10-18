@@ -6,6 +6,7 @@ import { useState } from "react";
 import back from "../../../../../public/assets/images/icones/back.png";
 import "./_gallery.scss";
 import Modale from "@/components/Modale/Modale";
+import Link from "next/link";
 
 interface ProjectProps {
   params: {
@@ -15,9 +16,17 @@ interface ProjectProps {
 
 function Gallery({ params }: ProjectProps) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(
+    null,
+  );
 
-  const openModal = () => {
-    setIsModalOpen(true);
+  const openModal = (index: number) => {
+    setSelectedImageIndex(index);
+    setIsModalOpen(!isModalOpen);
+  };
+
+  const handleGoBack = () => {
+    window.history.back();
   };
 
   const projectId = parseInt(params.slug, 10);
@@ -29,11 +38,13 @@ function Gallery({ params }: ProjectProps) {
   return (
     <div className="container-gallery">
       <div className="container-gallery__header">
-        <h2>Galerie photos</h2>
+        <h1>Galerie photos</h1>
         <div className="container-gallery__header__content">
           <Image src={back} width={30} height={30} alt="retour" />
           <div className="container-gallery__header__content__back">
-            <p>Retour</p>
+            <button type="button" onClick={handleGoBack}>
+              Retour
+            </button>
             <span></span>
           </div>
         </div>
@@ -46,7 +57,7 @@ function Gallery({ params }: ProjectProps) {
                 <div
                   key={index}
                   className="container-gallery__content-img__contain__images"
-                  onClick={openModal}
+                  onClick={() => openModal(index)}
                 >
                   <Image
                     src={`/${item}`}
@@ -59,8 +70,12 @@ function Gallery({ params }: ProjectProps) {
             })}
         </div>
       </div>
+
       {isModalOpen && (
-        <Modale imageProjects={`/${projectDetails.imageGallery[0]}`} />
+        <Modale
+          imageProjects={`/${projectDetails.imageGallery[selectedImageIndex]}`}
+          closeModale={openModal}
+        />
       )}
     </div>
   );

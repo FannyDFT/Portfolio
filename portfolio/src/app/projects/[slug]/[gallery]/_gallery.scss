@@ -7,12 +7,17 @@
   height: 100vh;
   background-color: variables.$light;
   border-bottom: 2px dotted variables.$brown;
+  @media screen and (max-width: 768px) {
+    padding-top: 105px;
+    height: 100vh;
+  }
 
   &__header {
     width: 100%;
     height: 20%;
     position: relative;
-    h2 {
+
+    h1 {
       width: 100%;
       height: 100%;
       display: flex;
@@ -24,6 +29,9 @@
       line-height: 55px;
       letter-spacing: 1px;
       font-weight: 400;
+      @media screen and (max-width: 768px) {
+        font-size: 34px;
+      }
     }
 
     &__content {
@@ -32,6 +40,9 @@
       left: 60px;
       display: flex;
       gap: 20px;
+      @media screen and (max-width: 768px) {
+        left: 50%;
+      }
 
       &__back {
         display: flex;
@@ -39,7 +50,7 @@
         gap: 5px;
         align-items: flex-start;
 
-        p {
+        button {
           font-family: variables.$raleway;
           color: variables.$brown;
           font-size: 18px;
@@ -47,6 +58,12 @@
           line-height: 26px;
           letter-spacing: 1px;
           font-weight: 600;
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          @media screen and (max-width: 768px) {
+            font-size: 17px;
+          }
         }
         span {
           width: 53px;
@@ -62,6 +79,9 @@
     height: 80%;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 768px) {
+      padding-top: 30px;
+    }
 
     &__contain {
       width: 70%;
@@ -73,9 +93,7 @@
       flex-wrap: wrap;
       gap: 40px;
       overflow-y: scroll;
-      &::-webkit-scrollbar {
-        background: transparent;
-      }
+      @include variables.scrollbarY;
 
       &__images {
         img {

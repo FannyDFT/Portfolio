@@ -34,3 +34,29 @@ $light_brown: #ad9071;
     cursor: pointer;
   }
 }
+
+@mixin scrollbarX {
+  &::-webkit-scrollbar {
+    height: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $gray;
+    border-radius: 50px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $white;
+  }
+}
+
+@mixin scrollbarY {
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $gray;
+    border-radius: 50px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $white;
+  }
+}
