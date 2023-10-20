@@ -19,7 +19,7 @@
   }
 
   h1 {
-    font-family: variables.$yeseva;
+    // font-family: variables.$yeseva;
     color: variables.$brown;
     font-size: 40px;
     @media screen and ((min-width: 768px) and (max-width: 991px)) {
@@ -35,7 +35,7 @@
   }
 
   h2 {
-    font-family: variables.$raleway;
+    // font-family: variables.$raleway;
     color: variables.$brown;
     letter-spacing: 1px;
     line-height: 25px;
@@ -50,7 +50,7 @@
   }
 
   p {
-    font-family: variables.$raleway;
+    // font-family: variables.$raleway;
     color: variables.$brown;
     letter-spacing: 1px;
     line-height: 23px;

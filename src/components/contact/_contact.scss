@@ -24,7 +24,7 @@
     }
 
     h1 {
-      font-family: variables.$yeseva;
+      // font-family: variables.$yeseva;
       font-size: 55px;
       line-height: 55px;
       letter-spacing: 1px;
@@ -39,7 +39,7 @@
     }
 
     p {
-      font-family: variables.$raleway;
+      // font-family: variables.$raleway;
       font-size: 14px;
       font-weight: 500;
       line-height: 20px;
@@ -73,7 +73,7 @@
       padding: 10px;
       border: none;
       outline: none;
-      font-family: variables.$raleway;
+      // font-family: variables.$raleway;
       font-size: 15px;
       letter-spacing: 1px;
 
@@ -82,7 +82,7 @@
       }
 
       &::placeholder {
-        font-family: variables.$raleway;
+        // font-family: variables.$raleway;
         font-size: 15px;
         line-height: 19px;
         color: variables.$gray;
@@ -94,14 +94,14 @@
       width: 80%;
       height: 200px;
       padding: 10px;
-      font-family: variables.$raleway;
+      // font-family: variables.$raleway;
       font-size: 15px;
       letter-spacing: 1px;
       border: none;
       outline: none;
 
       &::placeholder {
-        font-family: variables.$raleway;
+        // font-family: variables.$raleway;
         font-size: 15px;
         line-height: 19px;
         color: variables.$gray;
@@ -116,7 +116,7 @@
       border: none;
       background-color: variables.$light_brown;
       color: variables.$white;
-      font-family: variables.$raleway;
+      // font-family: variables.$raleway;
       text-transform: uppercase;
       font-size: 15px;
       line-height: 19px;

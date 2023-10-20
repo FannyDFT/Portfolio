@@ -30,7 +30,7 @@
       flex-direction: column;
       background-color: variables.$white;
       padding: 20px;
-      font-family: variables.$raleway;
+      // font-family: variables.$raleway;
       gap: 15px;
       color: variables.$brown;
       letter-spacing: 1px;
@@ -113,7 +113,7 @@
       h2 {
         font-size: 18px;
         line-height: 25px;
-        font-family: variables.$raleway;
+        // font-family: variables.$raleway;
         letter-spacing: 1px;
         font-weight: 300;
         @media screen and (max-width: 768px) {
