@@ -4,7 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import React from "react";
 import "./_projects-page.scss";
 import TitleProjects from "@/components/Projects/header/TitleProjects";
-import { Projectdetails } from "@/datas/datas";
+import { Projectdetails } from "../../../datas/datas";
 import ProjectCard from "@/components/Projects/content/ProjectCard";
 import Link from "next/link";
 import "../../components/Projects/content/_projectcard.scss";

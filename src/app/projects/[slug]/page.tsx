@@ -1,4 +1,4 @@
-import { Projectdetails } from "@/datas/datas";
+import { Projectdetails } from "../../../../datas/datas";
 import React from "react";
 import "./_details.scss";
 import arrow from "../../../../public/assets/images/icones/plus.png";
