@@ -2,6 +2,9 @@ import React from "react";
 import "./_profil.scss";
 import { Technicalskills } from "../../../datas/datas";
 import Title from "./Title";
+import { Raleway } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
 
 function Curriculum() {
   return (
@@ -9,7 +12,7 @@ function Curriculum() {
       <div className="container-profil__text">
         <div className="container-profil__text__contain">
           <Title title="Profil" />
-          <p>
+          <p className={raleway.className}>
             Après avoir terminé ma formation en développement web, j’ai
             rapidement plongé dans le monde professionnel en effectuant un stage
             enrichissant. Je recherche désormais une opportunité professionnelle
@@ -26,7 +29,11 @@ function Curriculum() {
           <Title title="Compétences techniques" />
           <div className="container-profil__technikalls__contain__competences">
             {Technicalskills &&
-              Technicalskills.map((item) => <li key={item.id}>{item.name}</li>)}
+              Technicalskills.map((item) => (
+                <li className={raleway.className} key={item.id}>
+                  {item.name}
+                </li>
+              ))}
           </div>
         </div>
       </div>

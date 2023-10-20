@@ -5,7 +5,6 @@ import Button from "../Button/Button";
 import img from "../../../public/assets/images/photos/pres.png";
 import fleurs from "../../../public/assets/images/photos/fleurs.jpeg";
 import "./_about.scss";
-import { motion } from "framer-motion";
 
 function About() {
   return (
