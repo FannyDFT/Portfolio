@@ -3,6 +3,10 @@
 import { useState, ChangeEvent } from "react";
 import emailjs from "emailjs-com";
 import "./_contact.scss";
+import { Raleway, Yeseva_One } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
+const yeseva = Yeseva_One({ weight: "400", subsets: ["latin"] });
 
 interface UserInfos {
   firstname: string;
@@ -72,8 +76,8 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="contact__text">
-        <h1>Contactez moi !</h1>
-        <p>
+        <h1 className={yeseva.className}>Contactez moi !</h1>
+        <p className={raleway.className}>
           Si vous avez des questions supplémentaires je suis à votre
           disposition. N&apos;hésitez pas à me contacter, je serais ravi
           d&apos;échanger avec vous.
@@ -86,6 +90,7 @@ function Contact() {
           onChange={handleChangeInput}
           name="firstname"
           value={infos.firstname}
+          className={raleway.className}
         />
         <input
           type="email"
@@ -93,6 +98,7 @@ function Contact() {
           onChange={handleChangeInput}
           name="email"
           value={infos.email}
+          className={raleway.className}
         />
         <textarea
           placeholder="Message..."
@@ -101,8 +107,9 @@ function Contact() {
           onChange={handleChangeTextarea}
           value={infos.message}
           name="message"
+          className={raleway.className}
         ></textarea>
-        <button type="button" onClick={sendEmail}>
+        <button type="button" onClick={sendEmail} className={raleway.className}>
           Envoyer
         </button>
       </form>

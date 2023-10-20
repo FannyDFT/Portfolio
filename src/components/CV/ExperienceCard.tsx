@@ -2,6 +2,10 @@ import React from "react";
 import "./_experiencesCard.scss";
 import computer from "../../../public/assets/images/icones/computer.png";
 import Image from "next/image";
+import { Raleway, Yeseva_One } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
+
 interface ExperiencesProps {
   name: string;
   company: string;
@@ -15,7 +19,9 @@ function ExperienceCard({ name, company, duration, tasks }: ExperiencesProps) {
       <div className="experiences__card">
         <div className="experiences__card__tasks">
           {tasks.map((task, index) => (
-            <p key={index}>{task}</p>
+            <p className={raleway.className} key={index}>
+              {task}
+            </p>
           ))}
         </div>
       </div>
@@ -29,10 +35,10 @@ function ExperienceCard({ name, company, duration, tasks }: ExperiencesProps) {
       </div>
       <div className="experiences__name">
         <div className="experiences__name__details">
-          <h1>
+          <h1 className={raleway.className}>
             {company} - {duration}
           </h1>
-          <h2>{name}</h2>
+          <h2 className={raleway.className}>{name}</h2>
         </div>
       </div>
     </div>

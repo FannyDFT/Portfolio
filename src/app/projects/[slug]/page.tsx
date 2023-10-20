@@ -4,6 +4,10 @@ import "./_details.scss";
 import arrow from "../../../../public/assets/images/icones/plus.png";
 import Image from "next/image";
 import Link from "next/link";
+import { Raleway, Yeseva_One } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
+const yeseva = Yeseva_One({ weight: "400", subsets: ["latin"] });
 
 interface ProjectProps {
   params: {
@@ -29,12 +33,16 @@ function Project({ params }: ProjectProps) {
   return (
     <div className="container-details">
       <div className="container-details__text">
-        <h1>{projectDetails.title}</h1>
-        <h2>{projectDetails.subtitle}</h2>
-        <p>{projectDetails.description}</p>
+        <h1 className={yeseva.className}>{projectDetails.title}</h1>
+        <h2 className={raleway.className}>{projectDetails.subtitle}</h2>
+        <p className={raleway.className}>{projectDetails.description}</p>
         <div className="container-details__text__technos">
-          <h3>{projectDetails.technologiestitle}</h3>
-          <div className="container-details__text__technos__techno">
+          <h3 className={raleway.className}>
+            {projectDetails.technologiestitle}
+          </h3>
+          <div
+            className={`container-details__text__technos__techno ${raleway.className}`}
+          >
             {projectDetails.technologies.map((technology, index) => (
               <p key={index}>{technology}</p>
             ))}
@@ -47,7 +55,7 @@ function Project({ params }: ProjectProps) {
             href={`${projectId}/gallery`}
             className="container-details__img__contain-text__gallery"
           >
-            <p>Galerie photos</p>
+            <p className={raleway.className}>Galerie photos</p>
             <span></span>
           </Link>
           <Image src={arrow} width={30} height={30} alt="arrow" />
@@ -62,7 +70,7 @@ function Project({ params }: ProjectProps) {
         <div className="container-details__img__back-project">
           <div className="container-details__img__back-project__contain-line">
             <Link href="/projects">
-              <h3>Revenir aux projets</h3>
+              <h3 className={raleway.className}>Revenir aux projets</h3>
             </Link>
 
             <span></span>
