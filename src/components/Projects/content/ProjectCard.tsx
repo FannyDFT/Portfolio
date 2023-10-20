@@ -23,7 +23,7 @@ function ProjectCard({
   return (
     <div className="container_card">
       <div className="container_card__img">
-        <Image src={`/${image}`} width={133} height={133} alt="image_project" />
+        <Image src={`${image}`} width={133} height={133} alt="image_project" />
       </div>
       <div className="container_card__text">
         <h1>{title}</h1>

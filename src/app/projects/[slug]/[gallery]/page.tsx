@@ -60,7 +60,7 @@ function Gallery({ params }: ProjectProps) {
                   onClick={() => openModal(index)}
                 >
                   <Image
-                    src={`/${item}`}
+                    src={`${item}`}
                     alt="image project"
                     width={247}
                     height={247}
@@ -73,7 +73,7 @@ function Gallery({ params }: ProjectProps) {
 
       {isModalOpen && selectedImageIndex && projectDetails && (
         <Modale
-          imageProjects={`/${projectDetails.imageGallery[selectedImageIndex]}`}
+          imageProjects={`${projectDetails.imageGallery[selectedImageIndex]}`}
           closeModale={openModal}
         />
       )}
