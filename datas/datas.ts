@@ -95,7 +95,7 @@ export const Projectdetails = [
     title: "Aelys",
     subtitle: "Projet de stage",
     description:
-      "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer l'interface et l'utilisation du site pour les employés du magasin Aelys afin qu'ils puissent gérer leuurs commandes facilement. Pour cela j'ai utilisé NeutralinoJs qui m'a permi de concevoir un application bureau compatible avec toute les plateformes, ainsi que React et son framework Vite",
+      "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer l'interface et l'utilisation du site pour les employés du magasin Aelys afin qu'ils puissent gérer leurs commandes facilement. Pour cela j'ai utilisé NeutralinoJs qui m'a permis de concevoir une application bureau compatible avec toutes les plateformes, ainsi que React et son framework Vite",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "../../../assets/images/aelys/accueil.png",
@@ -110,7 +110,7 @@ export const Projectdetails = [
     title: "Bijoux de soins",
     subtitle: "Projet en Autonomie",
     description:
-      "J'ai réalisé ce projet à au cour de ma formation et de mon stage de la conception de la maquette, en passant par la modélisation de la base de donnée jusqu'au développement des fonctionnalités. il a été nécessaire pour moi afin de reprendre toutes les compétences vu pendant mes précédentes expériences et pratiquer seule. C'est un projet Fullstack que j'ai présenté lors de mon passage du titre de développeur web et web mobile. il est encoore en cours de construction et reste des fonctionnalités à implémenter telle que la prise de rendez vous. Je suis fière du travaille accomplis jusqu'ici et compte bien continuer à améliorer ce site.",
+      "J'ai réalisé ce projet au cours de ma formation et de mon stage, depuis la conception de la maquette, en passant par la modélisation de la base de donnée jusqu'au développement des fonctionnalités. Il a été nécessaire pour moi afin de reprendre toutes les compétences vue pendant mes précédentes expériences et pratiquer seule. C'est un projet Fullstack que j'ai présenté lors de mon passage du titre de développeur web et web mobile. Il est encoore en cours de construction et il reste des fonctionnalités à implémenter telle que la prise de rendez vous. Je suis fière du travaille accomplis jusqu'ici et compte bien continuer à améliorer ce site.",
     technologiestitle: "Les technologies utilisées",
     technologies: [
       "Next.Js",
@@ -148,9 +148,9 @@ export const Projectdetails = [
   {
     id: 4,
     title: "Externatic",
-    subtitle: "Projet de Formartion en Groupe",
+    subtitle: "Projet de Formation en Groupe",
     description:
-      "Ce projet à été réalisé au cour de ma formation en groupe de trois sur une durée de 8 semaines. Le but était de mettre en pratique nos connaissances nouvellement asquises. Nous devions construire un site Fullstack. Cela nous à permit d'appréhender de nouvelles technologies telles que Prisma et typescript",
+      "Ce projet à été réalisé au cours de ma formation en groupe de trois sur une durée de 8 semaines. Le but était de mettre en pratique nos connaissances nouvellement asquises. Nous devions construire un site Fullstack. Cela nous a permis d'appréhender de nouvelles technologies telles que Prisma et typescript",
     technologiestitle: "Les technologies utilisées",
     technologies: [
       "Next.js",
@@ -179,49 +179,69 @@ export const Projectdetails = [
   {
     id: 5,
     title: "Ecotripr",
-    subtitle: "Projet de Formartion en Groupe",
-    description:
-      "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
+    subtitle: "Projet de Formation en Groupe",
+    description: "Mettre la description du projet",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "../../../../assets/images/ecotripr/accueil.png",
-    imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
+    imageGallery: [
+      "../../../assets/images/ecotript/accueil.png",
+      "../../../assets/images/ecotript/accueil1.png",
+      "../../../assets/images/ecotript/accueil3.png",
+      "../../../assets/images/ecotript/choose-destination.png",
+      "../../../assets/images/ecotript/choose.png",
+      "../../../assets/images/ecotript/file.png",
+      "../../../assets/images/ecotript/last-step.png",
+    ],
   },
   {
     id: 6,
     title: "FleetGo",
-    subtitle: "Projet de Formartion en Groupe",
-    description:
-      "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
+    subtitle: "Projet de Formation en Groupe",
+    description: "Mettre la description du projet",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "../../../../assets/images/fleetgo/accueil1.png",
-    imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
+    imageGallery: [
+      "../../../assets/images/fleetfo/accueil1.png",
+      "../../../assets/images/fleetfo/accueil2.png",
+      "../../../assets/images/fleetfo/accueil3.png",
+      "../../../assets/images/fleetfo/compte.png",
+      "../../../assets/images/fleetfo/mobile-compte.png",
+      "../../../assets/images/fleetfo/mobile.png",
+    ],
   },
   {
     id: 7,
     title: "WildFit",
-    subtitle: "Projet de Formartion en Groupe",
-    description:
-      "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
+    subtitle: "Projet de Formation en Groupe",
+    description: "Mettre la descrition du projet",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "../../../assets/images/WildFit/accueil.png",
-    imageGallery: ["Chemin_vers_image1", "Chemin_vers_image2"],
+    imageGallery: [
+      "../../../assets/images/WildFit/accueil.png",
+      "../../../assets/images/WildFit/exo.png",
+      "../../../assets/images/WildFit/mobile_accueil.png",
+      "../../../assets/images/WildFit/mobile_exo.png",
+      "../../../assets/images/WildFit/progress.png",
+      "../../../assets/images/WildFit/progress1.png",
+    ],
   },
   {
     id: 8,
     title: "Wild Code school Biarritz Website",
     subtitle: "Projet de Formation en Groupe",
     description:
-      "Ce projet était le premier de ma formation. il nous a permis de nous familiariser avec les langages de base du développement web (HtML, Css, Javascript). Nous l’avons réalisé par groupe de 4 et avons chacun travaillé sur une page différente du site. Pour ma part j’ai réalisé la page contact, avec la création d’une navigation responsive, un formulaire de contact, comprenant quelques animations, une validation du message à la soumission du formulaire, une carte indiquant l’emplacement de l’école, ainsi qu’un Footer avec l’accès aux différents réseaux sociaux de l’école.",
+      "Ce projet était le premier de ma formation. Il nous a permis de nous familiariser avec les langages de base du développement web (HtML, Css, Javascript). Nous l'avons réalisé par groupe de 4 et avons chacun travaillé sur une page différente du site. Pour ma part j’ai réalisé la page contact, avec la création d’une navigation responsive, un formulaire de contact, comprenant quelques animations, une validation du message à la soumission du formulaire, une carte indiquant l’emplacement de l’école, ainsi qu’un Footer avec l’accès aux différents réseaux sociaux de l’école.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["HTML", "Css", "JS"],
     image: "../../../assets/images/wsc_siteweb/contact.png",
     imageGallery: [
-      "Chemin_vers_image1",
-      "Chemin_vers_image2",
-      "Chemin_vers_image3",
+      "../../../assets/images/wsc_siteweb/contact.png",
+      "../../../assets/images/wsc_siteweb/mobile_pied_page.png",
+      "../../../assets/images/wsc_siteweb/mobile.png",
+      "../../../assets/images/wsc_siteweb/pied_page.png",
     ],
   },
 ];

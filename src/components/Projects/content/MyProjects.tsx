@@ -4,7 +4,7 @@ import Header from "../header/Header";
 import "./_myprojects.scss";
 import ProjectCard from "./ProjectCard";
 import { Project } from "@/type";
-import { Projects } from "@/datas/datas";
+import { Projects } from "../../../../datas/datas";
 import "./_projectslist.scss";
 
 function MyProjects() {

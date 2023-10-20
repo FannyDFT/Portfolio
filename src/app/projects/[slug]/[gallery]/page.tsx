@@ -1,6 +1,6 @@
 "use client";
 
-import { Projectdetails } from "@/datas/datas";
+import { Projectdetails } from "../../../../../datas/datas";
 import Image from "next/image";
 import { useState } from "react";
 import back from "../../../../../public/assets/images/icones/back.png";
