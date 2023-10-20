@@ -41,22 +41,25 @@ function AllProjects() {
       <div className="container-projectsList__allProjects">
         <Carousel responsive={responsive} autoPlay>
           {Projectdetails &&
-            Projectdetails.map((item) => (
-              <Link href={`/projects/${item.id}`} key={item.id}>
-                <ProjectCard
-                  image={item.image}
-                  title={item.title}
-                  subtitle={item.subtitle}
-                  description={item.description}
-                  technologiestitle={item.technologiestitle}
-                  technologies={item.technologies}
-                  imageGallery={item.imageGallery}
-                  projectLink={`/projects/${item.id.toString()}`}
-                />
-              </Link>
-            ))}
+            Projectdetails.map((item) => {
+              console.log(item.image); // Affiche la valeur de item.image dans la console
+
+              return (
+                <Link href={`/projects/${item.id}`} key={item.id}>
+                  <ProjectCard
+                    image={item.image}
+                    title={item.title}
+                    subtitle={item.subtitle}
+                    description={item.description}
+                    technologiestitle={item.technologiestitle}
+                    technologies={item.technologies}
+                    imageGallery={item.imageGallery}
+                    projectLink={`/projects/${item.id.toString()}`}
+                  />
+                </Link>
+              );
+            })}
         </Carousel>
-        ;
       </div>
     </div>
   );
