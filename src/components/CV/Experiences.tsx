@@ -1,7 +1,7 @@
 import React from "react";
 import ExperienceCard from "./ExperienceCard";
 import "./_experiences.scss";
-import { Experiences as ExperienceData } from "../../datas/datas";
+import { Experiences as ExperienceData } from "../../../datas/datas";
 import { ExperienceType } from "@/type";
 
 function Experiences() {

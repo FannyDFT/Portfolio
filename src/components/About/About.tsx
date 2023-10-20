@@ -19,11 +19,11 @@ function About() {
           <Profil
             title="Fanny D’Erfurth"
             subtitle="Développeuse web"
-            firstText=" Récemment diplômé du titre de développeur web et web mobile, je suis
-            constamment enthousiasmée par les opportunités infinies offertes par
+            firstText=" Récemment diplômée du titre de développeur web et web mobile, je suis
+            constamment enthousiaste par les opportunités infinies offertes par
             ce domaine en constante évolution."
-            secondText="Ma soif de connaissance me pousse à en apprendre chaque jours
-            davantage et de rester à la pointe des dernière tendances."
+            secondText="Ma soif de connaissance me pousse à en apprendre chaque jour
+            davantage et à rester à la pointe des dernières tendances."
           />
           <div className="container_about__content__text__btn">
             <Button type="button" link="/about" text="Me Découvrir" />

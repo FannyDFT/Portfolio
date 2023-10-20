@@ -29,7 +29,7 @@ function Accueil() {
               title="Le Monde à Travers Ma Plume de Codeuse"
               subtitle="Transformant des idées en réalité numérique"
               firstText="Je suis une développeuse web Fullstack avec une appétence pour le
-          Frontend et"
+          Frontend "
               secondText=" Parcourez mes projets pour découvrir mon expertise en développement
           web. Mon objectif est de contribuer de manière significative à des
           équipes talentueuses et de participer à la création de solutions web

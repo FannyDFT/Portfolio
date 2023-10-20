@@ -1,6 +1,6 @@
 import React from "react";
 import "./_profil.scss";
-import { Technicalskills } from "@/datas/datas";
+import { Technicalskills } from "../../../datas/datas";
 import Title from "./Title";
 
 function Curriculum() {
