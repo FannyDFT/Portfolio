@@ -7,6 +7,10 @@ import home from "../../../public/assets/images/icones/home.png";
 import web from "../../../public/assets/images/icones/reseaux.png";
 import Link from "next/link";
 import "./_informations.scss";
+import { Raleway, Yeseva_One } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
+const yeseva = Yeseva_One({ weight: "400", subsets: ["latin"] });
 
 import ContactInfos from "./ContactInfos";
 import Experiences from "./Experiences";
@@ -30,8 +34,8 @@ function Informations() {
         </div>
         <div className="informations-container__contain__coordinates">
           <div className="informations-container__contain__coordinates__infos">
-            <h1>Fanny D&apos;Erfurth</h1>
-            <h2>Coordonnées</h2>
+            <h1 className={yeseva.className}>Fanny D&apos;Erfurth</h1>
+            <h2 className={raleway.className}>Coordonnées</h2>
             <div className="informations-container__contain__coordinates__infos__info">
               {coordonneesData.map((coordonnee) => (
                 <div key={coordonnee.id}>

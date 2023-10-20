@@ -8,6 +8,9 @@ import linkedin from "../../../public/assets/images/icones/linkedin.png";
 import arrow from "../../../public/assets/images/icones/retour.png";
 import "./_footer.scss";
 import Link from "next/link";
+import { Raleway } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
 
 function Footer() {
   const scrollToTop = () => {
@@ -24,14 +27,14 @@ function Footer() {
         </div>
 
         <div className="footer__container__text">
-          <h1>Fanny D&apos;Erfurth</h1>
-          <h2>
+          <h1 className={raleway.className}>Fanny D&apos;Erfurth</h1>
+          <h2 className={raleway.className}>
             Pour moi, le travail bien fait, la persévérance et la bienveillance
             sont les piliers d&apos;une réussite durable
           </h2>
         </div>
         <div className="footer__container__follow">
-          <h3>Suivez moi !</h3>
+          <h3 className={raleway.className}>Suivez moi !</h3>
           <div className="footer__container__follow__img">
             <Link href="https://github.com/FannyDFT" target="_blank">
               <Image src={github} width={40} height={32} alt="github" />
@@ -50,7 +53,7 @@ function Footer() {
           className="footer__container__arrow"
         >
           <Image src={arrow} width={33} height={33} alt="arrow top" />
-          <p>Top</p>
+          <p className={raleway.className}>Top</p>
         </button>
       </div>
       <div className="footer__mentions">

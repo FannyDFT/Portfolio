@@ -8,6 +8,9 @@ import open from "../../../public/assets/images/icones/open.png";
 import close from "../../../public/assets/images/icones/close_menu.png";
 import Link from "next/link";
 import { myLinks } from "./link";
+import { Raleway } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
 
 interface LinkItem {
   id: number;
@@ -62,7 +65,9 @@ function Navbar() {
               closeNavbar();
               changeColorText(link.id);
             }}
-            className={linkIsActive ? "navbar__links__isActive" : ""}
+            className={
+              linkIsActive ? `navbar__links__isActive ${raleway.className}` : ""
+            }
           >
             {link.title}
           </Link>

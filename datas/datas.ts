@@ -180,7 +180,8 @@ export const Projectdetails = [
     id: 5,
     title: "Ecotripr",
     subtitle: "Projet de Formation en Groupe",
-    description: "Mettre la description du projet",
+    description:
+      "Ce projet était le premier hackathon réalisé en équipe. Il a duré 48h00. Il avait pour but de réaliser un site dynamique, accès Frontend en utilsant une ou plusieur API. Le sujet était 'Le Voyage', nous avons chosi une application où l'utilisateur peut glisser/déposer sa photo sur un fond, un lieu qu'il a lui même choisi. C'était un projet très sympathique et enrichissant",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "/assets/images/ecotripr/accueil.png",
@@ -198,7 +199,8 @@ export const Projectdetails = [
     id: 6,
     title: "FleetGo",
     subtitle: "Projet de Formation en Groupe",
-    description: "Mettre la description du projet",
+    description:
+      "Ce projet a été le deuxième Hackathon réalisé en équipe, il a duré 72h00. Le but était de créer une petite application Fullstack sur le thème d'agence de location de flotte de véhicules",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "/assets/images/fleetgo/accueil1.png",
@@ -215,7 +217,8 @@ export const Projectdetails = [
     id: 7,
     title: "WildFit",
     subtitle: "Projet de Formation en Groupe",
-    description: "Mettre la descrition du projet",
+    description:
+      "Ce projet a été le deuxième de ma formation. Nous l'avons réaliser en équipe. Le but était de ce familiariser avec les API. Nous avons construit une application dynamique et responsive sur le thème du sport.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "/assets/images/WildFit/accueil.png",
@@ -230,7 +233,7 @@ export const Projectdetails = [
   },
   {
     id: 8,
-    title: "Wild Code school Biarritz Website",
+    title: "WCS Biarritz Website",
     subtitle: "Projet de Formation en Groupe",
     description:
       "Ce projet était le premier de ma formation. Il nous a permis de nous familiariser avec les langages de base du développement web (HtML, Css, Javascript). Nous l'avons réalisé par groupe de 4 et avons chacun travaillé sur une page différente du site. Pour ma part j’ai réalisé la page contact, avec la création d’une navigation responsive, un formulaire de contact, comprenant quelques animations, une validation du message à la soumission du formulaire, une carte indiquant l’emplacement de l’école, ainsi qu’un Footer avec l’accès aux différents réseaux sociaux de l’école.",

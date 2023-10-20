@@ -3,6 +3,9 @@ import ExperienceCard from "./ExperienceCard";
 import "./_experiences.scss";
 import { Experiences as ExperienceData } from "../../../datas/datas";
 import { ExperienceType } from "@/type";
+import { Yeseva_One } from "next/font/google";
+
+const yeseva = Yeseva_One({ weight: "400", subsets: ["latin"] });
 
 function Experiences() {
   const experiences: ExperienceType[] = ExperienceData;
@@ -10,7 +13,9 @@ function Experiences() {
 
   return (
     <div className="container-experiences">
-      <h1 className="container-experiences__title">Mes Expériences</h1>
+      <h1 className={`container-experiences__title ${yeseva.className}`}>
+        Mes Expériences
+      </h1>
       {experiences &&
         experiences.map((item) => (
           <ExperienceCard

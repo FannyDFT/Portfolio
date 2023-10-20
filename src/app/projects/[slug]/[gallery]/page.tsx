@@ -6,7 +6,10 @@ import { useState } from "react";
 import back from "../../../../../public/assets/images/icones/back.png";
 import "./_gallery.scss";
 import Modale from "@/components/Modale/Modale";
-import Link from "next/link";
+import { Raleway, Yeseva_One } from "next/font/google";
+
+const raleway = Raleway({ subsets: ["latin"] });
+const yeseva = Yeseva_One({ weight: "400", subsets: ["latin"] });
 
 interface ProjectProps {
   params: {
@@ -38,11 +41,15 @@ function Gallery({ params }: ProjectProps) {
   return (
     <div className="container-gallery">
       <div className="container-gallery__header">
-        <h1>Galerie photos</h1>
+        <h1 className={yeseva.className}>Galerie photos</h1>
         <div className="container-gallery__header__content">
           <Image src={back} width={30} height={30} alt="retour" />
           <div className="container-gallery__header__content__back">
-            <button type="button" onClick={handleGoBack}>
+            <button
+              type="button"
+              onClick={handleGoBack}
+              className={raleway.className}
+            >
               Retour
             </button>
             <span></span>
