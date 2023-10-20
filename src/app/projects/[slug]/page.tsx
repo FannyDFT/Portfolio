@@ -53,7 +53,7 @@ function Project({ params }: ProjectProps) {
           <Image src={arrow} width={30} height={30} alt="arrow" />
         </div>
         <Image
-          src={`/${projectDetails.image}`}
+          src={`${projectDetails.image}`}
           width={563}
           height={281}
           alt="image"
