@@ -10,10 +10,7 @@
   padding: 0 60px;
   position: relative;
   z-index: 2;
-
-  @media screen and (max-width: 768px) {
-    position: fixed;
-  }
+  position: fixed;
 
   &__links {
     width: 100%;

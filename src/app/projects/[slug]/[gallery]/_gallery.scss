@@ -7,10 +7,7 @@
   height: 100vh;
   background-color: variables.$light;
   border-bottom: 2px dotted variables.$brown;
-  @media screen and (max-width: 768px) {
-    padding-top: 105px;
-    height: 100vh;
-  }
+  padding-top: 105px;
 
   &__header {
     width: 100%;
@@ -95,6 +92,10 @@
       gap: 40px;
       overflow-y: scroll;
       @include variables.scrollbarY;
+
+      @media screen and (max-width: 768px) {
+        overflow-x: hidden;
+      }
 
       &__images {
         img {
