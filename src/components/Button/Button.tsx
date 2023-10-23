@@ -3,7 +3,7 @@ import React from "react";
 import "./_button.scss";
 
 interface ButtonProps {
-  onClick: () => void;
+  onClick?: () => void;
   text: string;
   type?: "button" | "submit" | "reset";
 }

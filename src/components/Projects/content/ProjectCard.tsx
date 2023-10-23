@@ -4,6 +4,7 @@ import "./_projectcard.scss";
 import Button from "../../Button/Button";
 
 import { Raleway, Yeseva_One } from "next/font/google";
+import Link from "next/link";
 
 const raleway = Raleway({ subsets: ["latin"] });
 const yeseva = Yeseva_One({ weight: "400", subsets: ["latin"] });
@@ -33,7 +34,10 @@ function ProjectCard({
       <div className="container_card__text">
         <h1 className={yeseva.className}>{title}</h1>
         <h2 className={raleway.className}>{subtitle}</h2>
-        <Button type="button" text="Découvrir" onClick={() => projectLink} />
+        <Link href={projectLink}>
+          <Button type="button" text="Découvrir" />
+        </Link>
+
         <div className="container_card__text__line">
           <div className="container_card__text__line__style"></div>
         </div>
