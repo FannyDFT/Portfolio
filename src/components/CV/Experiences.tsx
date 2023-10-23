@@ -9,7 +9,6 @@ const yeseva = Yeseva_One({ weight: "400", subsets: ["latin"] });
 
 function Experiences() {
   const experiences: ExperienceType[] = ExperienceData;
-  console.log(experiences);
 
   return (
     <div className="container-experiences">

@@ -6,11 +6,11 @@
   background-color: variables.$light;
   border-bottom: 2px dotted variables.$brown;
   display: flex;
+  padding-top: 105px;
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
     height: auto;
-    padding-top: 105px;
   }
 
   &__text {
