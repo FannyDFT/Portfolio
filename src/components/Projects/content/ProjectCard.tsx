@@ -33,7 +33,7 @@ function ProjectCard({
       <div className="container_card__text">
         <h1 className={yeseva.className}>{title}</h1>
         <h2 className={raleway.className}>{subtitle}</h2>
-        <Button type="button" text="Découvrir" link={projectLink} />
+        <Button type="button" text="Découvrir" onClick={() => projectLink} />
         <div className="container_card__text__line">
           <div className="container_card__text__line__style"></div>
         </div>

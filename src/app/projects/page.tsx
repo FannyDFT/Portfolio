@@ -42,8 +42,6 @@ function AllProjects() {
         <Carousel responsive={responsive} autoPlay>
           {Projectdetails &&
             Projectdetails.map((item) => {
-              console.log(item.image); // Affiche la valeur de item.image dans la console
-
               return (
                 <Link href={`/projects/${item.id}`} key={item.id}>
                   <ProjectCard

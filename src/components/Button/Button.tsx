@@ -3,16 +3,16 @@ import React from "react";
 import "./_button.scss";
 
 interface ButtonProps {
-  link: string;
+  onClick: () => void;
   text: string;
-  type: string;
+  type?: "button" | "submit" | "reset";
 }
 
-function Button({ link, text, type }: ButtonProps) {
+function Button({ onClick, text, type }: ButtonProps) {
   return (
-    <Link href={link} type={type} className="button">
+    <button type={type} className="button" onClick={onClick}>
       {text}
-    </Link>
+    </button>
   );
 }
 
