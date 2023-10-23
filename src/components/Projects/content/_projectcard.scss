@@ -53,6 +53,15 @@
   }
 
   &__text {
+    a {
+      text-decoration: none;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      button {
+        @include variables.button;
+      }
+    }
     height: 30%;
     width: 100%;
     display: flex;
@@ -94,12 +103,6 @@
         font-size: 16px;
         line-height: 24px;
       }
-    }
-
-    button {
-      @include variables.button;
-      height: 25%;
-      width: 80%;
     }
 
     &__line {

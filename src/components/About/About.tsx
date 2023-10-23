@@ -5,6 +5,7 @@ import Button from "../Button/Button";
 import img from "../../../public/assets/images/photos/pres.png";
 import fleurs from "../../../public/assets/images/photos/fleurs.jpeg";
 import "./_about.scss";
+import Link from "next/link";
 
 function About() {
   return (
@@ -25,7 +26,9 @@ function About() {
             davantage et à rester à la pointe des dernières tendances."
           />
           <div className="container_about__content__text__btn">
-            <Button type="button" link="/about" text="Me Découvrir" />
+            <Link href="/about">
+              <Button type="button" text="Me Découvrir" />
+            </Link>
           </div>
         </div>
       </div>
