@@ -80,6 +80,10 @@
       height: 100%;
       color: variables.$brown;
 
+      a {
+        text-decoration: none;
+      }
+
       //Format Tablette
       @media screen and ((min-width: 768px) and (max-width: 991px)) {
         width: 100%;

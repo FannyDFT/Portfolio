@@ -7,6 +7,7 @@ import fond from "../../../public/assets/images/photos/panier.jpeg";
 import photo from "../../../public/assets/images/photos/photo-accueil.jpg";
 import "./_home.scss";
 import Profil from "../Profil/Profil";
+import Link from "next/link";
 
 function Accueil() {
   return (
@@ -38,7 +39,9 @@ function Accueil() {
           </div>
 
           <div className="container-home__content__profil__button">
-            <Button text="On y va ?" type="button" link="/projects" />
+            <Link href="/projects">
+              <Button text="On y va ?" type="button" />
+            </Link>
           </div>
         </div>
       </div>
