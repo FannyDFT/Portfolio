@@ -78,9 +78,9 @@ export const Projectdetails = [
     title: "Bionbe",
     subtitle: "Projet de stage",
     description:
-      "Ce projet à été réalisé durant de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer la modale de recherche pour le site Bionbe afin que les utilisateurs puissent filtrer leurs recherches facilement et ainsi trouver des activités, des évènements, des clubs et des personnes autour d'eux.",
+      "Pendant mon stage de six mois chez Pic Digital, j'ai entrepris un projet de trois mois visant à améliorer la modalité de recherche du site Bionbe. Mon objectif principal était de simplifier le filtrage des recherches pour permettre aux utilisateurs de trouver facilement des activités, des événements, des clubs et des personnes dans leur région.",
     technologiestitle: "Les technologies utilisées",
-    technologies: ["Vite", "TS", "sass"],
+    technologies: ["Vite", "TS", "sass", "Elastic"],
     image: "/assets/images/bionbe/accueil.png",
     imageGallery: [
       "/assets/images/bionbe/accueil.png",
@@ -95,7 +95,7 @@ export const Projectdetails = [
     title: "Aelys",
     subtitle: "Projet de stage",
     description:
-      "Ce projet à été réalisé au cour de mon stage chez Pic digital en collaboration avec mon tuteur. C'est un projet que j'ai démarré de zéro. Je devais améliorer l'interface et l'utilisation du site pour les employés du magasin Aelys afin qu'ils puissent gérer leurs commandes facilement. Pour cela j'ai utilisé NeutralinoJs qui m'a permis de concevoir une application bureau compatible avec toutes les plateformes, ainsi que React et son framework Vite",
+      "J'ai réalisé ce projet durant mon stage chez Pic Digital, en collaboration avec mon tuteur. J'ai entrepris ce projet à partir de zéro, avec pour objectif d'améliorer l'interface et l'expérience utilisateur du site destiné aux employés du magasin Aelys, facilitant ainsi la gestion de leurs commandes. Pour atteindre cet objectif, j'ai utilisé NeutralinoJS pour concevoir une application de bureau compatible avec toutes les plateformes. De plus, j'ai intégré React et son framework Vit pour renforcer les fonctionnalités de l'application.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "/assets/images/aelys/accueil.png",
@@ -110,7 +110,7 @@ export const Projectdetails = [
     title: "Bijoux de soins",
     subtitle: "Projet en Autonomie",
     description:
-      "J'ai réalisé ce projet au cours de ma formation et de mon stage, depuis la conception de la maquette, en passant par la modélisation de la base de donnée jusqu'au développement des fonctionnalités. Il a été nécessaire pour moi afin de reprendre toutes les compétences vue pendant mes précédentes expériences et pratiquer seule. C'est un projet Fullstack que j'ai présenté lors de mon passage du titre de développeur web et web mobile. Il est encoore en cours de construction et il reste des fonctionnalités à implémenter telle que la prise de rendez vous. Je suis fière du travaille accomplis jusqu'ici et compte bien continuer à améliorer ce site.",
+      "J'ai conçu et développé ce projet durant ma formation et mon stage, en commençant par la création de la maquette, puis la modélisation de la base de données, jusqu'au développement des fonctionnalités. Cette réalisation m'a permis de consolider les compétences acquises au cours de mes expériences passées et de les mettre en pratique de manière autonome. Il s'agit d'un projet Fullstack que j'ai présenté lors de l'obtention de mon titre de développeur web et web mobile. Le projet est encore en cours de développement, certaines fonctionnalités, telles que la prise de rendez-vous, restent à implémenter. Je suis fière du travail accompli jusqu'à présent et j'ai l'intention de poursuivre les améliorations de ce site.",
     technologiestitle: "Les technologies utilisées",
     technologies: [
       "Next.Js",
@@ -150,7 +150,7 @@ export const Projectdetails = [
     title: "Externatic",
     subtitle: "Projet de Formation en Groupe",
     description:
-      "Ce projet à été réalisé au cours de ma formation en groupe de trois sur une durée de 8 semaines. Le but était de mettre en pratique nos connaissances nouvellement asquises. Nous devions construire un site Fullstack. Cela nous a permis d'appréhender de nouvelles technologies telles que Prisma et typescript",
+      "Ce projet a été mené à bien au cours de ma formation en groupe de trois, sur une période de 8 semaines. Notre objectif était de mettre en pratique les connaissances récemment acquises. Notre mission était de concevoir un site Fullstack, ce qui nous a amené à explorer de nouvelles technologies, notamment Prisma et TypeScript.",
     technologiestitle: "Les technologies utilisées",
     technologies: [
       "Next.js",
@@ -181,7 +181,7 @@ export const Projectdetails = [
     title: "Ecotripr",
     subtitle: "Projet de Formation en Groupe",
     description:
-      "Ce projet était le premier hackathon réalisé en équipe. Il a duré 48h00. Il avait pour but de réaliser un site dynamique, accès Frontend en utilsant une ou plusieur API. Le sujet était 'Le Voyage', nous avons chosi une application où l'utilisateur peut glisser/déposer sa photo sur un fond, un lieu qu'il a lui même choisi. C'était un projet très sympathique et enrichissant",
+      "Ce projet a marqué notre toute première participation à un hackathon en équipe, d'une durée de 48 heures. Notre objectif était de créer un site dynamique avec un accent particulier sur le frontend en utilisant une ou plusieurs API. Le thème du hackathon était 'Le Voyage', et nous avons opté pour une application permettant à l'utilisateur de glisser et déposer sa propre photo sur un arrière-plan représentant un lieu de son choix. Ce projet s'est avéré être une expérience particulièrement stimulante et enrichissante.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "/assets/images/ecotripr/accueil.png",
@@ -200,7 +200,7 @@ export const Projectdetails = [
     title: "FleetGo",
     subtitle: "Projet de Formation en Groupe",
     description:
-      "Ce projet a été le deuxième Hackathon réalisé en équipe, il a duré 72h00. Le but était de créer une petite application Fullstack sur le thème d'agence de location de flotte de véhicules",
+      "Ce projet a marqué notre deuxième participation à un hackathon en équipe, d'une durée de 72 heures. Notre objectif était de développer une application Fullstack sur le thème d'une agence de location de flotte de véhicules.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "/assets/images/fleetgo/accueil1.png",
@@ -218,7 +218,7 @@ export const Projectdetails = [
     title: "WildFit",
     subtitle: "Projet de Formation en Groupe",
     description:
-      "Ce projet a été le deuxième de ma formation. Nous l'avons réaliser en équipe. Le but était de ce familiariser avec les API. Nous avons construit une application dynamique et responsive sur le thème du sport.",
+      "Ce projet constituait le deuxième volet de ma formation, et nous l'avons réalisé en équipe. Notre principal objectif était de nous familiariser avec les API. En conséquence, nous avons conçu une application dynamique et réactive centrée sur le thème du sport.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["Vite", "TS", "sass"],
     image: "/assets/images/WildFit/accueil.png",
@@ -236,7 +236,7 @@ export const Projectdetails = [
     title: "WCS Biarritz Website",
     subtitle: "Projet de Formation en Groupe",
     description:
-      "Ce projet était le premier de ma formation. Il nous a permis de nous familiariser avec les langages de base du développement web (HtML, Css, Javascript). Nous l'avons réalisé par groupe de 4 et avons chacun travaillé sur une page différente du site. Pour ma part j’ai réalisé la page contact, avec la création d’une navigation responsive, un formulaire de contact, comprenant quelques animations, une validation du message à la soumission du formulaire, une carte indiquant l’emplacement de l’école, ainsi qu’un Footer avec l’accès aux différents réseaux sociaux de l’école.",
+      "Ce projet représentait le tout premier de ma formation. Il a constitué une introduction essentielle aux langages fondamentaux du développement web, tels qu'HTML, CSS et JavaScript. Nous l'avons réalisé en groupe de quatre, chacun se concentrant sur une page différente du site. Mon rôle a été de concevoir la page de contact, comprenant une navigation responsive, un formulaire de contact avec des animations intégrées, une validation du message lors de la soumission du formulaire, une carte indiquant l'emplacement de l'école, ainsi qu'un pied de page permettant l'accès aux différents réseaux sociaux de l'école.",
     technologiestitle: "Les technologies utilisées",
     technologies: ["HTML", "Css", "JS"],
     image: "/assets/images/wsc_siteweb/contact.png",
